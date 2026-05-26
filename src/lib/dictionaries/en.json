@@ -1,0 +1,726 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "whyValcot": "Why Valcot",
+        "industries": "Industries",
+        "blog": "Blog",
+        "contact": "Contact",
+        "serviceItems": {
+            "hrOutsourcing": "HR Outsourcing",
+            "payroll": "Payroll",
+            "recruitment": "Recruitment",
+            "legal": "Legal",
+            "accounting": "Accounting & Tax"
+        },
+        "industryItems": {
+            "sme": "SME & Startups",
+            "representative": "Representative Offices",
+            "multinational": "Multinational Companies"
+        }
+    },
+    "topBar": {
+        "phone": "+66 (0) XX-XXX-XXXX",
+        "email": "info@valcotpartners.com"
+    },
+    "floatingCta": {
+        "text": "Free Consultation"
+    },
+    "hero": {
+        "title": "Your Trusted HR Partner",
+        "subtitle": "in Thailand",
+        "description": "Valcot Partners provides comprehensive HR Outsourcing, Payroll, Recruitment, Legal, and Accounting services—so you can focus entirely on growing your business.",
+        "cta_primary": "Book a Call / Request Quote",
+        "cta_secondary": "View All Services"
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Complete Solutions for HR and Back Office Operations",
+        "viewAll": "View All Services",
+        "learnMore": "Learn More",
+        "hrOutsourcing": {
+            "title": "HR Outsourcing",
+            "description": "Full HR outsourcing including employment contracts, benefits administration, and Employer of Record (EOR) services.",
+            "items": [
+                "Employment contract management",
+                "Employee benefits administration",
+                "Employer of Record (EOR) services",
+                "Onboarding/Offboarding support"
+            ]
+        },
+        "payroll": {
+            "title": "Payroll",
+            "description": "Complete payroll processing with tax filing and social security submissions on schedule.",
+            "items": [
+                "Monthly payroll processing",
+                "PND 1, 1K, 91 tax filing",
+                "Social security submissions",
+                "Payroll summary reports"
+            ]
+        },
+        "recruitment": {
+            "title": "Recruitment",
+            "description": "Quality talent acquisition services including permanent, executive search, contract, and mass recruitment.",
+            "items": [
+                "Permanent recruitment",
+                "Executive Search",
+                "Contract staffing",
+                "Mass Recruitment"
+            ]
+        },
+        "legal": {
+            "title": "Legal & Compliance",
+            "description": "Legal services covering Work Permits, Visas, BOI applications, and PDPA compliance.",
+            "items": [
+                "Work Permit & Visa",
+                "BOI (Board of Investment)",
+                "PDPA (Data Protection Act)",
+                "Labor law advisory"
+            ]
+        },
+        "accounting": {
+            "title": "Accounting & Tax",
+            "description": "Monthly bookkeeping, VAT filing, and annual financial closing services.",
+            "items": [
+                "Monthly bookkeeping",
+                "Monthly VAT filing",
+                "Annual financial closing",
+                "Basic tax planning"
+            ]
+        },
+        "hr": {
+            "title": "HR Administration & Payroll Support",
+            "items": [
+                "HR documentation and operational support",
+                "Coordination of attendance, OT, allowances, and deductions",
+                "Payroll summary preparation for client review",
+                "Designed for multi-site and growing workforces"
+            ]
+        },
+        "compliance": {
+            "title": "Compliance & Documentation Support",
+            "items": [
+                "Organized records and traceable documentation",
+                "Checklist- and timeline-driven execution",
+                "Reduced risk of missing data and deadline delays"
+            ]
+        }
+    },
+    "stats": {
+        "experience": {
+            "value": "10+",
+            "label": "Years Experience"
+        },
+        "clients": {
+            "value": "100+",
+            "label": "Trusted Clients"
+        },
+        "employees": {
+            "value": "5,000+",
+            "label": "Employees Managed"
+        },
+        "retention": {
+            "value": "99%",
+            "label": "Retention Rate"
+        }
+    },
+    "whyValcot": {
+        "title": "Why Choose Valcot",
+        "reasons": [
+            {
+                "title": "Local Expertise",
+                "description": "Deep understanding of Thai labor law and business culture"
+            },
+            {
+                "title": "End-to-End Services",
+                "description": "Comprehensive coverage from HR, Payroll, Recruitment, Legal to Accounting"
+            },
+            {
+                "title": "Proven Track Record",
+                "description": "Trusted by 100+ leading organizations across Thailand"
+            },
+            {
+                "title": "100% Compliant",
+                "description": "Strict adherence to labor laws, tax regulations, and PDPA"
+            },
+            {
+                "title": "All Business Sizes",
+                "description": "Scalable solutions for SMEs to large enterprises"
+            }
+        ]
+    },
+    "clientLogos": {
+        "title": "Trusted By Leading Companies"
+    },
+    "about": {
+        "title": "About Valcot",
+        "story": {
+            "title": "Our Story",
+            "description": "Valcot Partners was founded on the belief that businesses of all sizes deserve professional-grade HR services. Starting from payroll services for SMEs, we have grown to become one of Thailand's most trusted comprehensive HR partners."
+        },
+        "mission": {
+            "title": "Our Mission",
+            "description": "To help businesses grow sustainably by managing their HR back-office and compliance operations comprehensively, so clients can focus entirely on management and business expansion."
+        },
+        "values": {
+            "title": "Core Values",
+            "items": [
+                {
+                    "title": "Integrity",
+                    "description": "Operating with transparency, honesty, and strict client confidentiality."
+                },
+                {
+                    "title": "Excellence",
+                    "description": "Committed to delivering the highest quality results through systematic processes."
+                },
+                {
+                    "title": "Client-Centric",
+                    "description": "Designing services tailored to each client's specific needs."
+                },
+                {
+                    "title": "Compliance",
+                    "description": "Strictly adhering to all relevant laws and regulations."
+                }
+            ]
+        },
+        "description": "Valcot is a business operations support provider focused on HR administration, payroll support, recruitment operations, and compliance documentation. We help clients reduce operational friction and improve accuracy by implementing structured workflows with clear responsibilities and consistent delivery.",
+        "painpoints": "Common pain points we address include scattered employee records, time-consuming attendance/OT consolidation, inconsistent data submission, and repeated payroll revisions due to missing information.",
+        "suitable": "Best suited for SMEs, factories, and multi-site operators that need reliable operational support without immediately increasing internal headcount."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "What does Valcot do—and what is out of scope?",
+                "answer": "We focus on HR administration, payroll operational support, recruitment operations, and compliance documentation based on an agreed scope. We do not position ourselves as \"doing everything\" without proper assessment and scope definition."
+            },
+            {
+                "question": "How is pricing structured?",
+                "answer": "Pricing depends on headcount, multi-site complexity, attendance/OT structure, and service scope. We assess your requirements before proposing a suitable package."
+            },
+            {
+                "question": "What information do we need from the client?",
+                "answer": "Employee data, site structure and payroll cycle, working time/OT policies, and required HR documents within the agreed scope to ensure accuracy and reduce rework."
+            },
+            {
+                "question": "Is Accounting & Tax Support a full accounting service?",
+                "answer": "Accounting and tax-related support is scope-based and typically focuses on documentation support and coordination. Delivery may involve collaboration with certified professionals or partner teams where appropriate."
+            },
+            {
+                "question": "What happens if client documents/data are incomplete?",
+                "answer": "We follow checklists and timelines. If required inputs are missing, we clearly communicate what is missing and how it impacts timelines so the client can respond accordingly."
+            },
+            {
+                "question": "How does Valcot handle confidentiality and employee data?",
+                "answer": "We follow confidentiality principles, maintain structured document storage, and restrict access based on roles and responsibilities to protect sensitive information."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Ready to discuss your scope and find the right service model for your business",
+        "cta": "Book a Call",
+        "form": {
+            "name": "Full Name",
+            "company": "Company",
+            "email": "Email",
+            "phone": "Phone",
+            "employees": "Number of Employees",
+            "service": "Service of Interest",
+            "message": "Message",
+            "submit": "Send Message",
+            "serviceOptions": {
+                "hrOutsourcing": "HR Outsourcing",
+                "payroll": "Payroll",
+                "recruitment": "Recruitment",
+                "legal": "Legal",
+                "accounting": "Accounting & Tax",
+                "other": "Other"
+            }
+        },
+        "info": {
+            "businessHours": "Business Hours",
+            "hours": "Mon - Fri: 9:00 AM - 6:00 PM",
+            "line": "@valcotpartners"
+        }
+    },
+    "footer": {
+        "tagline": "Value in Partnership",
+        "description": "Your Trusted HR Partner in Thailand",
+        "columns": {
+            "about": "About Us",
+            "services": "Services",
+            "company": "Company",
+            "contact": "Contact"
+        },
+        "companyLinks": {
+            "about": "About Us",
+            "careers": "Careers",
+            "blog": "Blog",
+            "faq": "FAQ"
+        },
+        "quickLinks": "Quick Links",
+        "contact": "Contact",
+        "copyright": "© 2569 Valcot Partners Co., Ltd. All rights reserved."
+    },
+    "contactPage": {
+        "responseBadge": "Response within 24 hrs",
+        "heroTitle": "Contact Us",
+        "heroSubtitle": "Have questions, need a quote, or just want to talk HR? Reach out — our team responds within 24 hours.",
+        "formTitle": "Send Us a Message",
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "company": "Company Name",
+        "service": "Service of Interest",
+        "selectPlaceholder": "— Select a service —",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your needs...",
+        "submit": "Send Message",
+        "officeAddress": "Office Address",
+        "businessHoursLabel": "Business Hours",
+        "businessHoursText": "Mon – Fri, 9:00 – 18:00",
+        "services": {
+            "recruitment": "Recruitment",
+            "legal": "Legal",
+            "accounting": "Accounting",
+            "other": "Other"
+        }
+    },
+    "whyValcotPage": {
+        "heroTitle": "Why Valcot Partners",
+        "heroSubtitle": "Why 100+ businesses trust us with their HR and Back-Office Operations",
+        "reasons": [
+            {
+                "title": "10+ Years Experience",
+                "description": "Our team has over 10 years of expertise in HR, Payroll, and Compliance, serving businesses across diverse industries."
+            },
+            {
+                "title": "Professional Team",
+                "description": "Specialists in every area from HR Admin, Payroll Specialists, Labor Law to Accounting Advisors."
+            },
+            {
+                "title": "End-to-End Solutions",
+                "description": "From HR Outsourcing, Payroll, Recruitment, Labor Law to Accounting & Tax — all under one roof."
+            },
+            {
+                "title": "Proactive Service",
+                "description": "We don't just follow orders — we act as your proactive partner, advising and preventing issues before they arise."
+            },
+            {
+                "title": "Fair Pricing",
+                "description": "Reasonable, transparent pricing with no hidden costs. Free initial consultation included."
+            },
+            {
+                "title": "100% Compliance",
+                "description": "Every operation fully complies with labor law, tax regulations, and all related statutory requirements."
+            }
+        ],
+        "valuesTitle": "Core Values",
+        "values": [
+            {
+                "title": "Integrity",
+                "description": "Straightforward and transparent in all operations."
+            },
+            {
+                "title": "Excellence",
+                "description": "Committed to delivering the highest quality every time."
+            },
+            {
+                "title": "Client-Centric",
+                "description": "Understanding needs and adapting to each business."
+            },
+            {
+                "title": "Compliance",
+                "description": "Always operating in full legal compliance."
+            }
+        ]
+    },
+    "blogPage": {
+        "heroTitle": "Blog",
+        "heroSubtitle": "HR articles, labor law guides, and news updates from Valcot Partners",
+        "readMore": "Read more →",
+        "articles": [
+            {
+                "title": "5 Things SMEs Should Know Before DIY Payroll",
+                "category": "Payroll",
+                "excerpt": "Many SMEs choose to handle payroll themselves, but common mistakes can lead to legal and tax issues."
+            },
+            {
+                "title": "What is EOR? Why Foreign Companies Need It",
+                "category": "HR",
+                "excerpt": "Employer of Record (EOR) is the solution for companies wanting to hire in Thailand without setting up a legal entity."
+            },
+            {
+                "title": "PDPA for HR: What You Need to Prepare",
+                "category": "Legal",
+                "excerpt": "How the Personal Data Protection Act impacts employee data management and what HR needs to prepare."
+            },
+            {
+                "title": "Work Permit & Visa: Complete Guide",
+                "category": "Legal",
+                "excerpt": "Step-by-step guide to Work Permit and Visa applications for foreign employees in Thailand."
+            }
+        ]
+    },
+    "aboutPage": {
+        "badge": "About Us",
+        "heroTitle": "About Valcot Partners",
+        "heroSubtitle": "Built on real experience, driven by our clients' success — the HR partner Thai businesses trust.",
+        "stats": [
+            {
+                "label": "Years Experience"
+            },
+            {
+                "label": "Trusted Clients"
+            },
+            {
+                "label": "Employees Managed"
+            },
+            {
+                "label": "Satisfaction Rate"
+            }
+        ],
+        "storyTitle": "Our Story",
+        "storyP1": "Valcot Partners was founded with a clear mission: to deliver world-class HR services to businesses entering the Thai market. We understand that managing people abroad is never easy — from navigating local laws to cultural nuances and unfamiliar systems.",
+        "storyP2": "Today, Valcot Partners serves a diverse range of clients — from startups to multinational corporations. Our services span HR, Payroll, Recruitment, and Legal, designed to give you one single point of contact for all things HR.",
+        "missionTitle": "Mission",
+        "missionText": "Empowering businesses in Thailand with reliable, compliant, and scalable HR services — so our clients can focus on their core business while we take care of their most valuable resource: their people.",
+        "coreValuesTitle": "Core Values",
+        "values": [
+            {
+                "title": "Integrity",
+                "desc": "We work with transparency and sincerity. Client trust is what we value most."
+            },
+            {
+                "title": "Excellence",
+                "desc": "Continuously improving service quality — never standing still."
+            },
+            {
+                "title": "Client-Centric",
+                "desc": "We succeed when our clients succeed. Every service is tailored to your business."
+            },
+            {
+                "title": "Compliance",
+                "desc": "Everything we do on your behalf complies with Thai law and international standards."
+            }
+        ],
+        "ctaTitle": "Ready to make us your HR partner?",
+        "ctaSubtitle": "Free consultation, no commitment.",
+        "ctaButton": "Free Consultation"
+    },
+    "industriesPages": {
+        "badge": "Industries",
+        "commonPainPoints": "Common Pain Points",
+        "howValcotHelps": "How Valcot Helps",
+        "challenges": "Challenges",
+        "sme": {
+            "title": "SME & Startups",
+            "subtitle": "HR solutions for growing SMEs and Startups — focus on your business without worrying about HR operations.",
+            "painPoints": [
+                "No dedicated HR team, but headcount is growing",
+                "Doing payroll manually with risk of tax/SSO errors",
+                "Unsure if employment contracts and regulations are legally compliant",
+                "Need to hire but no time for screening"
+            ],
+            "solutions": [
+                "HR Ops Essential — structured basic HR operations",
+                "Payroll — salary calculation, tax filing, SSO submissions",
+                "Legal — compliant employment contracts and regulations",
+                "Recruitment — screening and shortlist delivery"
+            ]
+        },
+        "representative": {
+            "title": "Representative Offices",
+            "subtitle": "HR and EOR solutions for representative offices looking to hire in Thailand.",
+            "painPoints": [
+                "Need to hire in Thailand without a legal entity",
+                "Unfamiliar with Thai labor law and regulations",
+                "Need a reliable Employer of Record (EOR)",
+                "Work Permit / Visa requirements for foreign staff"
+            ],
+            "solutions": [
+                "EOR — Valcot acts as the legal employer, no entity registration needed",
+                "Payroll & Tax — accurate salary payments and tax filings on schedule",
+                "Work Permit & Visa — end-to-end processing and renewals",
+                "Compliance — full Thai labor law compliance management"
+            ]
+        },
+        "multinational": {
+            "title": "Multinational Companies",
+            "subtitle": "Scalable HR solutions for multinational companies operating in Thailand.",
+            "painPoints": [
+                "Managing employees across multiple sites/shifts",
+                "Need site-based payroll reporting",
+                "Need an HR partner that scales with business growth",
+                "Compliance with both local and global standards"
+            ],
+            "solutions": [
+                "HR Ops Multi-Site — site-based data management structure",
+                "Enterprise Payroll — Site Payroll Summary + Exception Handling",
+                "Dedicated Account Manager — specialized manager for your account",
+                "Mass Recruitment — high-volume hiring in limited timeframes"
+            ]
+        }
+    },
+    "servicesPages": {
+        "global": {
+            "enterpriseSolutions": "Enterprise Solutions",
+            "subtitle": "Elevate your organization's management with our comprehensive world-class services.",
+            "optionalAddons": "Optional Add-ons",
+            "disclaimer": "Valcot services are delivered based on an agreed scope to ensure quality and accuracy. Any out-of-scope or additional complexity will be assessed and proposed before execution.",
+            "addons": [
+                {
+                    "title": "Social Security / Statutory Filings",
+                    "desc": "Filing support (scope-based)"
+                },
+                {
+                    "title": "HR Policy & Template Pack",
+                    "desc": "Standard forms & checklists"
+                },
+                {
+                    "title": "Compliance Calendar",
+                    "desc": "Monthly reminders"
+                },
+                {
+                    "title": "HR System / Portal",
+                    "desc": "Coming Soon"
+                }
+            ]
+        },
+        "hrOutsourcing": {
+            "badge": "Comprehensive HR Services",
+            "heroTitle1": "Full-Spectrum",
+            "heroTitle2": "HR & EOR Solutions",
+            "heroSubtitle": "Focus on growing your business while we manage your people. World-class Employer of Record (EOR) and HR Outsourcing services.",
+            "getConsultation": "Get Free Consultation",
+            "complianceStatus": "Compliance Status",
+            "complianceDesc": "All employees locally compliant",
+            "highlights": [
+                {
+                    "value": "100%",
+                    "label": "Labor Law Compliant"
+                },
+                {
+                    "value": "Seamless",
+                    "label": "Hire to Retire Management"
+                },
+                {
+                    "value": "EOR",
+                    "label": "Hire Without Local Entity"
+                }
+            ],
+            "targetAudienceTitle": "Who is this for?",
+            "targetAudiences": [
+                {
+                    "title": "Multinational Companies (MNCs)",
+                    "desc": "Need local representation or Employer of Record (EOR) to test the market."
+                },
+                {
+                    "title": "SMEs & Startups",
+                    "desc": "No internal HR department; need experts to manage the entire employee lifecycle."
+                },
+                {
+                    "title": "High-Growth Companies",
+                    "desc": "Scaling rapidly and need to onboard teams without administrative burden."
+                }
+            ],
+            "coverageTitle": "What We Cover For You",
+            "coverageItems": [
+                "Recruitment & Onboarding",
+                "Employment Contract Setup",
+                "Benefits & Group Insurance Admin",
+                "Time, Attendance & Leave Management",
+                "Thai Labor Law Compliance",
+                "Employee Relations (ER)"
+            ],
+            "coverageDesc": "Professionally managed with verifiable reporting, giving you peace of mind at every step.",
+            "ctaTitle": "Ready to simplify your people management?",
+            "ctaSubtitle": "Free consultation, no obligations. Tell us your HR challenges, and we'll design the solution.",
+            "ctaButton": "Contact Us Today",
+            "check1": "Full HR Coverage",
+            "check2": "Reduce Legal Risks"
+        },
+        "payroll": {
+            "badge": "Payroll Services",
+            "heroTitle1": "Accurate & Punctual",
+            "heroTitle2": "Worry-Free Payroll",
+            "heroSubtitle": "No more calculation errors. Our team ensures everyone is paid correctly, taxes are fully filed, and all labor laws are strictly followed.",
+            "getConsultation": "Request a Quote",
+            "highlights": [
+                {
+                    "value": "100%",
+                    "label": "Accurate Calculations"
+                },
+                {
+                    "value": "Secure",
+                    "label": "Data Confidentiality Guaranteed"
+                },
+                {
+                    "value": "On-Time",
+                    "label": "On-Time Payments & Filings"
+                }
+            ],
+            "coverageTitle": "Complete Payroll Management",
+            "coverageSubtitle": "Meticulously managed every step of the way with high-security standards.",
+            "coverageItems": [
+                "Salary, OT, and Deduction Calculations",
+                "Personal Income Tax Filings (PND.1, PND.1K)",
+                "Social Security Fund Admin",
+                "Provident Fund Administration",
+                "Online Pay Slip Generation",
+                "Annual Reports & Assessments Execution"
+            ],
+            "coverageDesc": "Operated by professionals, reducing errors and saving time so your organization runs smoothly.",
+            "ctaTitle": "Let us handle the complexity so you can handle business.",
+            "ctaSubtitle": "Reliable, secure, and 100% accurate payroll services. Start your payroll transition with us today.",
+            "ctaButton": "Get Service Rates",
+            "check1": "Strict Confidentiality",
+            "check2": "Audit-Ready Reports"
+        },
+        "recruitment": {
+            "badge": "Recruitment Services",
+            "heroTitle1": "Connect with",
+            "heroTitle2": "Top Local Talents",
+            "heroSubtitle": "Time is valuable. Let our experts headhunt the most capable candidates that fit perfectly into your corporate culture.",
+            "getConsultation": "Submit a Job Request",
+            "candidateShortlist": "Shortlisted Candidate",
+            "highlights": [
+                {
+                    "value": "95%",
+                    "label": "Candidate Probation Pass Rate"
+                },
+                {
+                    "value": "1M+",
+                    "label": "Candidate Database"
+                },
+                {
+                    "value": "Guaranteed",
+                    "label": "Free Replacement Period"
+                }
+            ],
+            "targetAudienceTitle": "Recruitment Models",
+            "recruitmentModels": [
+                {
+                    "title": "Executive Search",
+                    "desc": "Headhunting top-tier executives and highly specialized talents who drive business direction."
+                },
+                {
+                    "title": "General Recruitment",
+                    "desc": "Sourcing and screening operational to managerial staff. Our large candidate database reduces time-to-hire."
+                },
+                {
+                    "title": "Mass Recruitment",
+                    "desc": "Volume hiring for new branch openings, factories, or special high-scale projects under strict deadlines."
+                },
+                {
+                    "title": "Contract/Temporary Staffing",
+                    "desc": "Providing temporary or contract staff for optimal cost management flexibility."
+                }
+            ],
+            "coverageTitle": "Our Recruitment Process",
+            "processSteps": [
+                {
+                    "step": "01",
+                    "title": "Requirement Analysis",
+                    "desc": "Understanding your business context, culture, and detailed JD."
+                },
+                {
+                    "step": "02",
+                    "title": "Sourcing & Screening",
+                    "desc": "Accessing databases, initial interviews, and attitude testing."
+                },
+                {
+                    "step": "03",
+                    "title": "Candidate Shortlist",
+                    "desc": "Submitting a shortlist of the top 3-5 candidates for your review."
+                },
+                {
+                    "step": "04",
+                    "title": "Negotiation & Onboarding",
+                    "desc": "Assisting with offer negotiation and contract signing."
+                }
+            ],
+            "ctaTitle": "Ready to assemble your strongest team?",
+            "ctaSubtitle": "Tell us what you're looking for, and our Headhunters will tap into our premium network. No placement, no fee.",
+            "ctaButton": "Contact Recruitment",
+            "check1": "Placement Guarantee",
+            "check2": "Discreet & Confidential"
+        },
+        "legal": {
+            "badge": "Legal & Compliance",
+            "heroTitle1": "Securing Your Business",
+            "heroTitle2": "With Legal Foundations",
+            "heroSubtitle": "From Work Permits to BOI and PDPA compliance, our legal advisors ensure your business operates smoothly in Thailand. Focus on your business, not bureaucracy.",
+            "getConsultation": "Consult Legal Team",
+            "highlights": [
+                {
+                    "value": "Accurate",
+                    "label": "100% Thai Law Compliant"
+                },
+                {
+                    "value": "Speedy",
+                    "label": "Swift Govt. Coordination"
+                },
+                {
+                    "value": "One-Stop",
+                    "label": "We Manage All Paperwork"
+                }
+            ],
+            "coverageTitle": "Comprehensive Legal Coverage",
+            "coverageSubtitle": "Turn legal hurdles into an operational advantage.",
+            "coverageItems": [
+                "Work Permit & Visa Processing",
+                "Company Incorporation & Registration",
+                "BOI Application Assistance",
+                "Labor Law & PDPA Consulting",
+                "Contract Drafting & Review",
+                "Company Work Rules & Regulations"
+            ],
+            "coverageDesc": "Prevent risks and verify all documentation to ensure every step of your business is safe and seamless.",
+            "ctaTitle": "Ready to operate securely in Thailand?",
+            "ctaSubtitle": "Delegate complex legal processes and government paperwork to our professionals. Contact us today.",
+            "ctaButton": "Consult Legal Expert",
+            "check1": "Zero Risk Approach",
+            "check2": "Fully Transparent"
+        },
+        "accounting": {
+            "badge": "Accounting & Tax Services",
+            "heroTitle1": "Organized Books",
+            "heroTitle2": "Timely Filings",
+            "heroSubtitle": "Accurate books and timely tax filings are the foundation of a stable business. Our professional accounting team handles everything seamlessly.",
+            "getConsultation": "Get Free Consultation",
+            "highlights": [
+                {
+                    "value": "100%",
+                    "label": "On-time Filings, Zero Penalties"
+                },
+                {
+                    "value": "Certified CPA",
+                    "label": "Quality Assured on All Reports"
+                },
+                {
+                    "value": "Monthly Updates",
+                    "label": "Executive Financial Status"
+                }
+            ],
+            "coverageTitle": "Comprehensive Accounting Services",
+            "coverageSubtitle": "Every essential element of finance and tax, managed by professional accountants.",
+            "coverageItems": [
+                "Standard monthly bookkeeping",
+                "VAT and withholding tax filing",
+                "Corporate income tax calculation and filing",
+                "Social security reporting",
+                "Annual financial statements",
+                "Revenue Department audit assistance"
+            ],
+            "coverageDesc": "Executed swiftly and accurately in compliance with Revenue Department regulations to protect your company's interests.",
+            "ctaTitle": "Ready to elevate your accounting system?",
+            "ctaSubtitle": "No more headaches with paperwork and numbers. Let a trusted partner handle it. Free initial consultation, clear upfront pricing.",
+            "ctaButton": "Contact Us Today",
+            "check1": "Fast Response",
+            "check2": "Transparent Pricing"
+        }
+    }
+}
