@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Locale } from "@/lib/i18n";
-import { ArrowRight, CheckCircle, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 interface HeroProps {
     lang: Locale;
@@ -35,21 +35,9 @@ export function Hero({ lang, dict }: HeroProps) {
 
             <div className="container-lg">
                 <div className="max-w-4xl">
-                    {/* Badge */}
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/10 text-primary mb-8">
-                        <CheckCircle className="w-4 h-4 text-gold" />
-                        <span className="text-sm font-medium">
-                            {lang === "th" ? "ได้รับความไว้วางใจจาก 50+ องค์กรในประเทศไทย" : "Trusted by 50+ companies in Thailand"}
-                        </span>
-                    </div>
-
                     {/* Title */}
                     <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-6xl font-bold font-heading leading-[1.15] tracking-tight">
                         <span className="text-primary">{dict.hero.title}</span>
-                        <br />
-                        <span className="text-gradient">
-                            {dict.hero.subtitle}
-                        </span>
                     </h1>
 
                     {/* Description */}

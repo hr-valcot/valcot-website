@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Locale } from "@/lib/i18n";
-import { Mail, Phone, MapPin, Clock, MessageCircle } from "lucide-react";
+import { ArrowRight, Mail, Phone, MapPin, Clock, MessageCircle, FileText } from "lucide-react";
 
 interface FooterProps {
     lang: Locale;
@@ -20,25 +20,44 @@ interface FooterProps {
                 recruitment: string;
                 legal: string;
                 accounting: string;
+                eventOrganizer: string;
+                tourOperator: string;
+                addonServices: string;
             };
         };
         topBar: {
             phone: string;
             email: string;
+            line: string;
+            lineUrl: string;
+            address: string;
+            taxId: string;
+            businessHours: string;
+        };
+        footer: {
+            tagline: string;
+            description: string;
+            cta: string;
+            copyright: string;
         };
     };
 }
 
 const serviceRoutes = [
-    { key: "hrOutsourcing", slug: "hr-outsourcing" },
-    { key: "payroll", slug: "payroll" },
-    { key: "recruitment", slug: "recruitment" },
-    { key: "legal", slug: "legal" },
-    { key: "accounting", slug: "accounting" },
+    { key: "hrOutsourcing", href: "services/hr-outsourcing" },
+    { key: "payroll", href: "services/payroll" },
+    { key: "recruitment", href: "services/recruitment" },
+    { key: "legal", href: "services/legal" },
+    { key: "accounting", href: "services/accounting" },
+    { key: "eventOrganizer", href: "contact" },
+    { key: "tourOperator", href: "contact" },
+    { key: "addonServices", href: "contact" },
 ] as const;
 
 export function Footer({ lang, dict }: FooterProps) {
     const linkClass = "text-white/60 hover:text-gold transition-colors duration-200 text-sm";
+    const phoneHref = dict.topBar.phone.replace(/[^\d+]/g, "");
+    const taxIdLabel = lang === "th" ? "เลขประจำตัวผู้เสียภาษี" : "Tax ID";
 
     return (
         <footer className="bg-[#0a1628] text-white">
@@ -53,13 +72,22 @@ export function Footer({ lang, dict }: FooterProps) {
                                 width={160}
                                 height={44}
                                 className="h-11 w-auto brightness-0 invert"
+                                style={{ width: "auto" }}
                             />
                         </Link>
-                        <p className="mt-4 text-white/50 text-sm leading-relaxed max-w-xs">
-                            {lang === "th"
-                                ? "Valcot Partners คือผู้ให้บริการ HR ครบวงจรที่ธุรกิจในประเทศไทยไว้วางใจ ตั้งแต่ HR, Payroll, สรรหาบุคลากร, กฎหมาย ไปจนถึงบัญชีและภาษี"
-                                : "Valcot Partners is Thailand's trusted full-service HR provider — covering HR, Payroll, Recruitment, Legal, and Accounting."}
+                        <p className="mt-4 text-gold text-sm font-semibold leading-relaxed max-w-xs">
+                            {dict.footer.tagline}
                         </p>
+                        <p className="mt-3 text-white/50 text-sm leading-relaxed max-w-xs">
+                            {dict.footer.description}
+                        </p>
+                        <Link
+                            href={`/${lang}/contact`}
+                            className="mt-5 inline-flex items-center gap-2 rounded-lg bg-gold px-4 py-2.5 text-sm font-semibold text-primary transition-colors hover:bg-gold-light"
+                        >
+                            {dict.footer.cta}
+                            <ArrowRight className="w-4 h-4" />
+                        </Link>
                         {/* Social Icons */}
                         <div className="flex gap-3 mt-5">
                             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-gold transition-colors" aria-label="LinkedIn">
@@ -68,7 +96,7 @@ export function Footer({ lang, dict }: FooterProps) {
                             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-gold transition-colors" aria-label="Facebook">
                                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" /></svg>
                             </a>
-                            <a href="https://line.me/R/ti/p/@valcotpartners" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-gold transition-colors" aria-label="Line">
+                            <a href={dict.topBar.lineUrl} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-gold transition-colors" aria-label="Line">
                                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314" /></svg>
                             </a>
                         </div>
@@ -82,7 +110,7 @@ export function Footer({ lang, dict }: FooterProps) {
                         <ul className="space-y-3">
                             {serviceRoutes.map((route) => (
                                 <li key={route.key}>
-                                    <Link href={`/${lang}/services/${route.slug}`} className={linkClass}>
+                                    <Link href={`/${lang}/${route.href}`} className={linkClass}>
                                         {dict.nav.serviceItems[route.key]}
                                     </Link>
                                 </li>
@@ -111,7 +139,7 @@ export function Footer({ lang, dict }: FooterProps) {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
                                 <Phone className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
-                                <a href={`tel:${dict.topBar.phone.replace(/\s/g, "")}`} className={linkClass}>
+                                <a href={`tel:${phoneHref}`} className={linkClass}>
                                     {dict.topBar.phone}
                                 </a>
                             </li>
@@ -123,18 +151,24 @@ export function Footer({ lang, dict }: FooterProps) {
                             </li>
                             <li className="flex items-start gap-3">
                                 <MessageCircle className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
-                                <a href="https://line.me/R/ti/p/@valcotpartners" target="_blank" rel="noopener noreferrer" className={linkClass}>
-                                    @valcotpartners
+                                <a href={dict.topBar.lineUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
+                                    {dict.topBar.line}
                                 </a>
                             </li>
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
-                                <span className="text-white/60 text-sm">Bangkok, Thailand</span>
+                                <span className="text-white/60 text-sm leading-relaxed">{dict.topBar.address}</span>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <FileText className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
+                                <span className="text-white/60 text-sm">
+                                    {taxIdLabel}: {dict.topBar.taxId}
+                                </span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <Clock className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
                                 <span className="text-white/60 text-sm">
-                                    {lang === "th" ? "จ.-ศ. 9:00–18:00" : "Mon-Fri 9:00–18:00"}
+                                    {dict.topBar.businessHours}
                                 </span>
                             </li>
                         </ul>
@@ -145,7 +179,7 @@ export function Footer({ lang, dict }: FooterProps) {
                 <div className="mt-12 pt-8 border-t border-white/10">
                     <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
                         <p className="text-white/40 text-sm">
-                            © 2569 Valcot Partners Co., Ltd. {lang === "th" ? "สงวนลิขสิทธิ์" : "All rights reserved."}
+                            {dict.footer.copyright}
                         </p>
                         <div className="flex gap-6">
                             <Link href={`/${lang}`} className="text-white/40 hover:text-gold text-sm transition-colors">

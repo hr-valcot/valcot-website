@@ -12,81 +12,90 @@
             "payroll": "Payroll",
             "recruitment": "Recruitment",
             "legal": "Legal",
-            "accounting": "Accounting & Tax"
+            "accounting": "Accounting & Tax",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         },
         "industryItems": {
             "sme": "SME & Startups",
             "representative": "Representative Offices",
             "multinational": "Multinational Companies"
-        }
+        },
+        "cta": "Free Consultation"
     },
     "topBar": {
-        "phone": "+66 (0) XX-XXX-XXXX",
-        "email": "info@valcotpartners.com"
+        "phone": "0975955664",
+        "email": "info@valcotpartners.com",
+        "line": "@389eefpd",
+        "lineUrl": "https://line.me/R/ti/p/@389eefpd",
+        "address": "1 Empire Tower, Unit 2701-02, 2712-14 (TT 23), 27th Floor, South Sathorn Road, Yan Nawa, Sathon, Bangkok 10120, Thailand",
+        "taxId": "0105568205565",
+        "businessHours": "09:00-18:00"
     },
     "floatingCta": {
         "text": "Free Consultation"
     },
     "hero": {
-        "title": "Your Trusted HR Partner",
-        "subtitle": "in Thailand",
-        "description": "Valcot Partners provides comprehensive HR Outsourcing, Payroll, Recruitment, Legal, and Accounting services—so you can focus entirely on growing your business.",
-        "cta_primary": "Book a Call / Request Quote",
+        "title": "A full-service partner for organizations built to grow with confidence",
+        "subtitle": "",
+        "description": "Valcot Partners brings HR, legal, accounting, tax, technology, events, and travel expertise together in one place, so your team can focus on business growth.",
+        "cta_primary": "Free Consultation",
         "cta_secondary": "View All Services"
     },
     "services": {
-        "title": "Our Services",
-        "subtitle": "Complete Solutions for HR and Back Office Operations",
+        "title": "8 services designed to move your business forward",
+        "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
         "viewAll": "View All Services",
         "learnMore": "Learn More",
         "hrOutsourcing": {
-            "title": "HR Outsourcing",
-            "description": "Full HR outsourcing including employment contracts, benefits administration, and Employer of Record (EOR) services.",
+            "title": "HR Outsourcing & EOR",
+            "description": "Manage people compliantly without building your own HR team",
             "items": [
-                "Employment contract management",
-                "Employee benefits administration",
-                "Employer of Record (EOR) services",
-                "Onboarding/Offboarding support"
+                "Employer of Record (EOR)",
+                "Employment documentation",
+                "Onboarding and offboarding",
+                "Benefits and compliance coordination"
             ]
         },
         "payroll": {
-            "title": "Payroll",
-            "description": "Complete payroll processing with tax filing and social security submissions on schedule.",
+            "title": "Payroll Outsourcing",
+            "description": "Accurate payroll, on time, every cycle",
             "items": [
                 "Monthly payroll processing",
-                "PND 1, 1K, 91 tax filing",
-                "Social security submissions",
+                "OT / allowance / deduction summaries",
+                "Tax and SSO support by scope",
                 "Payroll summary reports"
             ]
         },
         "recruitment": {
-            "title": "Recruitment",
-            "description": "Quality talent acquisition services including permanent, executive search, contract, and mass recruitment.",
+            "title": "Recruitment & Staffing",
+            "description": "The right people, at the right time, in the right model for your organization",
             "items": [
-                "Permanent recruitment",
-                "Executive Search",
-                "Contract staffing",
-                "Mass Recruitment"
+                "Requirement intake",
+                "Screening and shortlist",
+                "Interview coordination",
+                "Onboarding support by scope"
             ]
         },
         "legal": {
             "title": "Legal & Compliance",
-            "description": "Legal services covering Work Permits, Visas, BOI applications, and PDPA compliance.",
+            "description": "A stable legal foundation for worry-free growth",
             "items": [
                 "Work Permit & Visa",
-                "BOI (Board of Investment)",
-                "PDPA (Data Protection Act)",
-                "Labor law advisory"
+                "BOI and government documentation",
+                "PDPA and labor law",
+                "Contract drafting and review"
             ]
         },
         "accounting": {
             "title": "Accounting & Tax",
-            "description": "Monthly bookkeeping, VAT filing, and annual financial closing services.",
+            "description": "Reliable numbers are the foundation of better decisions",
             "items": [
-                "Monthly bookkeeping",
-                "Monthly VAT filing",
-                "Annual financial closing",
-                "Basic tax planning"
+                "Accounting and tax documentation support",
+                "Filing coordination by scope",
+                "Audit-ready data preparation",
+                "Certified professional coordination when needed"
             ]
         },
         "hr": {
@@ -105,7 +114,38 @@
                 "Checklist- and timeline-driven execution",
                 "Reduced risk of missing data and deadline delays"
             ]
-        }
+        },
+        "eventOrganizer": {
+            "title": "Event Organizer",
+            "description": "From concept to a memorable event experience",
+            "items": [
+                "Event concept planning",
+                "Vendor and venue coordination",
+                "Timeline and run sheet",
+                "Post-event summary"
+            ]
+        },
+        "tourOperator": {
+            "title": "Tour Operator",
+            "description": "Smooth travel from planning to return",
+            "items": [
+                "Itinerary planning",
+                "Accommodation and transport coordination",
+                "Group movement support",
+                "Document and logistics support"
+            ]
+        },
+        "addonServices": {
+            "title": "Add-on Services",
+            "description": "Small details that complete your operating system",
+            "items": [
+                "Statutory filings support",
+                "HR policy and template pack",
+                "Compliance calendar",
+                "HR system / portal"
+            ]
+        },
+        "quoteCta": "Request a Quote"
     },
     "stats": {
         "experience": {
@@ -126,27 +166,23 @@
         }
     },
     "whyValcot": {
-        "title": "Why Choose Valcot",
+        "title": "Why Valcot Partners",
         "reasons": [
             {
-                "title": "Local Expertise",
-                "description": "Deep understanding of Thai labor law and business culture"
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "End-to-End Services",
-                "description": "Comprehensive coverage from HR, Payroll, Recruitment, Legal to Accounting"
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "Proven Track Record",
-                "description": "Trusted by 100+ leading organizations across Thailand"
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "100% Compliant",
-                "description": "Strict adherence to labor laws, tax regulations, and PDPA"
-            },
-            {
-                "title": "All Business Sizes",
-                "description": "Scalable solutions for SMEs to large enterprises"
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ]
     },
@@ -218,9 +254,9 @@
         ]
     },
     "contact": {
-        "title": "Contact Us",
-        "subtitle": "Ready to discuss your scope and find the right service model for your business",
-        "cta": "Book a Call",
+        "title": "Sustainable business growth starts with effective systems",
+        "subtitle": "At Valcot Partners, we believe stable growth needs strong support systems across people, payroll, legal, accounting, technology, and back-office operations. We help reduce workload, improve accuracy, and move your business forward with confidence. Start with a free 30-minute consultation and we will help identify which services fit your situation at no cost.",
+        "cta": "Book a Free 30-Minute Consultation",
         "form": {
             "name": "Full Name",
             "company": "Company",
@@ -236,18 +272,29 @@
                 "recruitment": "Recruitment",
                 "legal": "Legal",
                 "accounting": "Accounting & Tax",
-                "other": "Other"
-            }
+                "other": "Other",
+                "eventOrganizer": "Event Organizer",
+                "tourOperator": "Tour Operator",
+                "addonServices": "Add-on Services"
+            },
+            "employeePlaceholder": "— Select number of employees —",
+            "employeeOptions": [
+                "Less than 10",
+                "10-50",
+                "51-200",
+                "201-500",
+                "More than 500"
+            ]
         },
         "info": {
             "businessHours": "Business Hours",
-            "hours": "Mon - Fri: 9:00 AM - 6:00 PM",
-            "line": "@valcotpartners"
+            "hours": "09:00-18:00",
+            "line": "@389eefpd"
         }
     },
     "footer": {
-        "tagline": "Value in Partnership",
-        "description": "Your Trusted HR Partner in Thailand",
+        "tagline": "Valcot Partners — Your Trusted Partner for Business Support Solutions",
+        "description": "Integrated business support across HR, payroll, legal, accounting and tax, technology, events, and travel for stable business growth.",
         "columns": {
             "about": "About Us",
             "services": "Services",
@@ -262,12 +309,13 @@
         },
         "quickLinks": "Quick Links",
         "contact": "Contact",
-        "copyright": "© 2569 Valcot Partners Co., Ltd. All rights reserved."
+        "copyright": "© 2026 Valcot Partners Co., Ltd. All Rights Reserved.",
+        "cta": "Contact the Team"
     },
     "contactPage": {
         "responseBadge": "Response within 24 hrs",
         "heroTitle": "Contact Us",
-        "heroSubtitle": "Have questions, need a quote, or just want to talk HR? Reach out — our team responds within 24 hours.",
+        "heroSubtitle": "Tell us about your business. The Valcot Partners team will help assess the right service scope and respond within 24 hours.",
         "formTitle": "Send Us a Message",
         "name": "Full Name",
         "email": "Email",
@@ -280,41 +328,53 @@
         "submit": "Send Message",
         "officeAddress": "Office Address",
         "businessHoursLabel": "Business Hours",
-        "businessHoursText": "Mon – Fri, 9:00 – 18:00",
+        "businessHoursText": "09:00-18:00",
         "services": {
             "recruitment": "Recruitment",
             "legal": "Legal",
             "accounting": "Accounting",
             "other": "Other"
+        },
+        "employees": "Number of Employees",
+        "employeePlaceholder": "— Select number of employees —",
+        "employeeOptions": [
+            "Less than 10",
+            "10-50",
+            "51-200",
+            "201-500",
+            "More than 500"
+        ],
+        "serviceOptions": {
+            "hrOutsourcing": "HR Outsourcing",
+            "payroll": "Payroll",
+            "recruitment": "Recruitment",
+            "legal": "Legal",
+            "accounting": "Accounting & Tax",
+            "other": "Other",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         }
     },
     "whyValcotPage": {
         "heroTitle": "Why Valcot Partners",
-        "heroSubtitle": "Why 100+ businesses trust us with their HR and Back-Office Operations",
+        "heroSubtitle": "Complete, compliant, transparent business support designed around each organization’s context.",
         "reasons": [
             {
-                "title": "10+ Years Experience",
-                "description": "Our team has over 10 years of expertise in HR, Payroll, and Compliance, serving businesses across diverse industries."
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "Professional Team",
-                "description": "Specialists in every area from HR Admin, Payroll Specialists, Labor Law to Accounting Advisors."
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "End-to-End Solutions",
-                "description": "From HR Outsourcing, Payroll, Recruitment, Labor Law to Accounting & Tax — all under one roof."
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "Proactive Service",
-                "description": "We don't just follow orders — we act as your proactive partner, advising and preventing issues before they arise."
-            },
-            {
-                "title": "Fair Pricing",
-                "description": "Reasonable, transparent pricing with no hidden costs. Free initial consultation included."
-            },
-            {
-                "title": "100% Compliance",
-                "description": "Every operation fully complies with labor law, tax regulations, and all related statutory requirements."
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ],
         "valuesTitle": "Core Values",
@@ -367,7 +427,7 @@
     "aboutPage": {
         "badge": "About Us",
         "heroTitle": "About Valcot Partners",
-        "heroSubtitle": "Built on real experience, driven by our clients' success — the HR partner Thai businesses trust.",
+        "heroSubtitle": "A Business Support Solutions partner connecting people, legal, finance, technology, and operations into one reliable support system.",
         "stats": [
             {
                 "label": "Years Experience"
@@ -382,11 +442,11 @@
                 "label": "Satisfaction Rate"
             }
         ],
-        "storyTitle": "Our Story",
-        "storyP1": "Valcot Partners was founded with a clear mission: to deliver world-class HR services to businesses entering the Thai market. We understand that managing people abroad is never easy — from navigating local laws to cultural nuances and unfamiliar systems.",
-        "storyP2": "Today, Valcot Partners serves a diverse range of clients — from startups to multinational corporations. Our services span HR, Payroll, Recruitment, and Legal, designed to give you one single point of contact for all things HR.",
+        "storyTitle": "A partner that understands your business",
+        "storyP1": "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+        "storyP2": "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
         "missionTitle": "Mission",
-        "missionText": "Empowering businesses in Thailand with reliable, compliant, and scalable HR services — so our clients can focus on their core business while we take care of their most valuable resource: their people.",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs.",
         "coreValuesTitle": "Core Values",
         "values": [
             {
@@ -408,7 +468,14 @@
         ],
         "ctaTitle": "Ready to make us your HR partner?",
         "ctaSubtitle": "Free consultation, no commitment.",
-        "ctaButton": "Free Consultation"
+        "ctaButton": "Book a Free 30-Minute Consultation",
+        "storyParagraphs": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth."
     },
     "industriesPages": {
         "badge": "Industries",
@@ -467,7 +534,7 @@
     "servicesPages": {
         "global": {
             "enterpriseSolutions": "Enterprise Solutions",
-            "subtitle": "Elevate your organization's management with our comprehensive world-class services.",
+            "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
             "optionalAddons": "Optional Add-ons",
             "disclaimer": "Valcot services are delivered based on an agreed scope to ensure quality and accuracy. Any out-of-scope or additional complexity will be assessed and proposed before execution.",
             "addons": [
@@ -487,14 +554,15 @@
                     "title": "HR System / Portal",
                     "desc": "Coming Soon"
                 }
-            ]
+            ],
+            "quoteCta": "Request a Quote"
         },
         "hrOutsourcing": {
             "badge": "Comprehensive HR Services",
             "heroTitle1": "Full-Spectrum",
             "heroTitle2": "HR & EOR Solutions",
             "heroSubtitle": "Focus on growing your business while we manage your people. World-class Employer of Record (EOR) and HR Outsourcing services.",
-            "getConsultation": "Get Free Consultation",
+            "getConsultation": "Request a Quote",
             "complianceStatus": "Compliance Status",
             "complianceDesc": "All employees locally compliant",
             "highlights": [
@@ -538,7 +606,7 @@
             "coverageDesc": "Professionally managed with verifiable reporting, giving you peace of mind at every step.",
             "ctaTitle": "Ready to simplify your people management?",
             "ctaSubtitle": "Free consultation, no obligations. Tell us your HR challenges, and we'll design the solution.",
-            "ctaButton": "Contact Us Today",
+            "ctaButton": "Request a Quote",
             "check1": "Full HR Coverage",
             "check2": "Reduce Legal Risks"
         },
@@ -575,7 +643,7 @@
             "coverageDesc": "Operated by professionals, reducing errors and saving time so your organization runs smoothly.",
             "ctaTitle": "Let us handle the complexity so you can handle business.",
             "ctaSubtitle": "Reliable, secure, and 100% accurate payroll services. Start your payroll transition with us today.",
-            "ctaButton": "Get Service Rates",
+            "ctaButton": "Request a Quote",
             "check1": "Strict Confidentiality",
             "check2": "Audit-Ready Reports"
         },
@@ -584,7 +652,7 @@
             "heroTitle1": "Connect with",
             "heroTitle2": "Top Local Talents",
             "heroSubtitle": "Time is valuable. Let our experts headhunt the most capable candidates that fit perfectly into your corporate culture.",
-            "getConsultation": "Submit a Job Request",
+            "getConsultation": "Request a Quote",
             "candidateShortlist": "Shortlisted Candidate",
             "highlights": [
                 {
@@ -644,7 +712,7 @@
             ],
             "ctaTitle": "Ready to assemble your strongest team?",
             "ctaSubtitle": "Tell us what you're looking for, and our Headhunters will tap into our premium network. No placement, no fee.",
-            "ctaButton": "Contact Recruitment",
+            "ctaButton": "Request a Quote",
             "check1": "Placement Guarantee",
             "check2": "Discreet & Confidential"
         },
@@ -653,7 +721,7 @@
             "heroTitle1": "Securing Your Business",
             "heroTitle2": "With Legal Foundations",
             "heroSubtitle": "From Work Permits to BOI and PDPA compliance, our legal advisors ensure your business operates smoothly in Thailand. Focus on your business, not bureaucracy.",
-            "getConsultation": "Consult Legal Team",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "Accurate",
@@ -681,7 +749,7 @@
             "coverageDesc": "Prevent risks and verify all documentation to ensure every step of your business is safe and seamless.",
             "ctaTitle": "Ready to operate securely in Thailand?",
             "ctaSubtitle": "Delegate complex legal processes and government paperwork to our professionals. Contact us today.",
-            "ctaButton": "Consult Legal Expert",
+            "ctaButton": "Request a Quote",
             "check1": "Zero Risk Approach",
             "check2": "Fully Transparent"
         },
@@ -690,7 +758,7 @@
             "heroTitle1": "Organized Books",
             "heroTitle2": "Timely Filings",
             "heroSubtitle": "Accurate books and timely tax filings are the foundation of a stable business. Our professional accounting team handles everything seamlessly.",
-            "getConsultation": "Get Free Consultation",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -718,9 +786,21 @@
             "coverageDesc": "Executed swiftly and accurately in compliance with Revenue Department regulations to protect your company's interests.",
             "ctaTitle": "Ready to elevate your accounting system?",
             "ctaSubtitle": "No more headaches with paperwork and numbers. Let a trusted partner handle it. Free initial consultation, clear upfront pricing.",
-            "ctaButton": "Contact Us Today",
+            "ctaButton": "Request a Quote",
             "check1": "Fast Response",
             "check2": "Transparent Pricing"
         }
+    },
+    "aboutPreview": {
+        "heading": "A partner that understands your business",
+        "body": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs."
     }
 }

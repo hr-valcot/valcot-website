@@ -1,5 +1,5 @@
 import { Locale } from "@/lib/i18n";
-import { Users, CreditCard, UserSearch, Scale, Calculator, ArrowRight } from "lucide-react";
+import { ArrowRight, Calculator, CalendarCheck, CreditCard, Plane, Puzzle, Scale, UserSearch, Users } from "lucide-react";
 import Link from "next/link";
 
 interface ServicesProps {
@@ -10,6 +10,7 @@ interface ServicesProps {
             subtitle: string;
             viewAll: string;
             learnMore: string;
+            quoteCta: string;
             hrOutsourcing: {
                 title: string;
                 description: string;
@@ -35,6 +36,21 @@ interface ServicesProps {
                 description: string;
                 items: string[];
             };
+            eventOrganizer: {
+                title: string;
+                description: string;
+                items: string[];
+            };
+            tourOperator: {
+                title: string;
+                description: string;
+                items: string[];
+            };
+            addonServices: {
+                title: string;
+                description: string;
+                items: string[];
+            };
         };
     };
 }
@@ -45,6 +61,9 @@ const serviceConfig = [
     { key: "recruitment", slug: "recruitment", icon: UserSearch, color: "bg-emerald-100 text-emerald-600" },
     { key: "legal", slug: "legal", icon: Scale, color: "bg-violet-100 text-violet-600" },
     { key: "accounting", slug: "accounting", icon: Calculator, color: "bg-blue-100 text-blue-600" },
+    { key: "eventOrganizer", icon: CalendarCheck, color: "bg-rose-100 text-rose-600" },
+    { key: "tourOperator", icon: Plane, color: "bg-cyan-100 text-cyan-600" },
+    { key: "addonServices", icon: Puzzle, color: "bg-slate-100 text-slate-600" },
 ] as const;
 
 export function Services({ lang, dict }: ServicesProps) {
@@ -61,15 +80,18 @@ export function Services({ lang, dict }: ServicesProps) {
                     </p>
                 </div>
 
-                {/* Services Grid - 3+2 layout */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-                    {serviceConfig.slice(0, 3).map((config) => {
+                {/* Services Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {serviceConfig.map((config) => {
                         const service = dict.services[config.key];
                         const IconComponent = config.icon;
+                        const hasDetailPage = "slug" in config;
+                        const href = hasDetailPage ? `/${lang}/services/${config.slug}` : `/${lang}/contact`;
+                        const ctaLabel = hasDetailPage ? dict.services.learnMore : dict.services.quoteCta;
                         return (
                             <Link
                                 key={config.key}
-                                href={`/${lang}/services/${config.slug}`}
+                                href={href}
                                 className="card group cursor-pointer hover:border-gold/30 border border-transparent"
                             >
                                 <div className="flex items-start gap-4 mb-4">
@@ -86,39 +108,7 @@ export function Services({ lang, dict }: ServicesProps) {
                                     {service.description}
                                 </p>
                                 <div className="mt-auto pt-4 border-t border-border flex items-center text-primary font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                                    <span className="text-sm">{dict.services.learnMore}</span>
-                                    <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                                </div>
-                            </Link>
-                        );
-                    })}
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {serviceConfig.slice(3).map((config) => {
-                        const service = dict.services[config.key];
-                        const IconComponent = config.icon;
-                        return (
-                            <Link
-                                key={config.key}
-                                href={`/${lang}/services/${config.slug}`}
-                                className="card group cursor-pointer hover:border-gold/30 border border-transparent"
-                            >
-                                <div className="flex items-start gap-4 mb-4">
-                                    <div className={`p-3 rounded-xl ${config.color}`}>
-                                        <IconComponent className="w-6 h-6" />
-                                    </div>
-                                    <div className="flex-1">
-                                        <h3 className="text-lg font-semibold font-heading text-primary">
-                                            {service.title}
-                                        </h3>
-                                    </div>
-                                </div>
-                                <p className="text-muted text-sm leading-relaxed mb-4">
-                                    {service.description}
-                                </p>
-                                <div className="mt-auto pt-4 border-t border-border flex items-center text-primary font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                                    <span className="text-sm">{dict.services.learnMore}</span>
+                                    <span className="text-sm">{ctaLabel}</span>
                                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                                 </div>
                             </Link>

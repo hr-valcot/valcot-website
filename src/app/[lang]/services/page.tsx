@@ -1,12 +1,12 @@
 import { Locale, getDictionary } from "@/lib/i18n";
 import { ContactCTA } from "@/components/ContactCTA";
-import { Users, CreditCard, UserSearch, Scale, Calculator, ArrowRight, CheckCircle, Building2 } from "lucide-react";
+import { Users, CreditCard, UserSearch, Scale, Calculator, ArrowRight, CheckCircle, Building2, CalendarCheck, Plane, Puzzle } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "All Services",
-    description: "Comprehensive HR, Payroll, Recruitment, Legal, and Accounting services for businesses in Thailand.",
+    title: "บริการทั้งหมด",
+    description: "บริการสนับสนุนธุรกิจครบวงจร ครอบคลุม HR, Payroll, Legal, Accounting & Tax, Event และ Travel สำหรับองค์กรในประเทศไทย",
 };
 
 const serviceConfig = [
@@ -15,6 +15,9 @@ const serviceConfig = [
     { key: "recruitment", slug: "recruitment", icon: UserSearch, color: "bg-emerald-100 text-emerald-600" },
     { key: "legal", slug: "legal", icon: Scale, color: "bg-violet-100 text-violet-600" },
     { key: "accounting", slug: "accounting", icon: Calculator, color: "bg-blue-100 text-blue-600" },
+    { key: "eventOrganizer", icon: CalendarCheck, color: "bg-rose-100 text-rose-600" },
+    { key: "tourOperator", icon: Plane, color: "bg-cyan-100 text-cyan-600" },
+    { key: "addonServices", icon: Puzzle, color: "bg-slate-100 text-slate-600" },
 ] as const;
 
 export default async function ServicesPage({
@@ -25,12 +28,15 @@ export default async function ServicesPage({
     const { lang } = await params;
     const dict = await getDictionary(lang);
 
-    const serviceData: Record<string, { title: string; description: string; items: string[] }> = {
+    const serviceData: Record<string, { title: string; description: string; items?: string[] }> = {
         hrOutsourcing: dict.services.hrOutsourcing,
         payroll: dict.services.payroll,
         recruitment: dict.services.recruitment,
         legal: dict.services.legal,
         accounting: dict.services.accounting,
+        eventOrganizer: dict.services.eventOrganizer,
+        tourOperator: dict.services.tourOperator,
+        addonServices: dict.services.addonServices,
     };
 
     type Addon = { title: string; desc: string; comingSoon?: boolean };
@@ -77,10 +83,13 @@ export default async function ServicesPage({
                         {serviceConfig.map((config) => {
                             const service = serviceData[config.key];
                             const IconComponent = config.icon;
+                            const hasDetailPage = "slug" in config;
+                            const href = hasDetailPage ? `/${lang}/services/${config.slug}` : `/${lang}/contact`;
+                            const ctaLabel = hasDetailPage ? dict.services.learnMore : dict.servicesPages.global.quoteCta;
                             return (
                                 <Link
                                     key={config.key}
-                                    href={`/${lang}/services/${config.slug}`}
+                                    href={href}
                                     className="card group cursor-pointer hover:border-gold/30 border border-transparent"
                                 >
                                     <div className="flex items-start gap-4 mb-4">
@@ -93,7 +102,7 @@ export default async function ServicesPage({
                                     </div>
                                     <p className="text-sm text-muted mb-4">{service.description}</p>
                                     <ul className="space-y-2">
-                                        {service.items.map((item, idx) => (
+                                        {(service.items ?? []).slice(0, 4).map((item, idx) => (
                                             <li key={idx} className="flex items-start gap-2 text-sm text-muted">
                                                 <CheckCircle className="w-3.5 h-3.5 text-gold flex-shrink-0 mt-0.5" />
                                                 <span>{item}</span>
@@ -101,7 +110,7 @@ export default async function ServicesPage({
                                         ))}
                                     </ul>
                                     <div className="mt-6 pt-4 border-t border-border flex items-center text-primary font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                                        <span className="text-sm">{dict.services.learnMore}</span>
+                                        <span className="text-sm">{ctaLabel}</span>
                                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                                     </div>
                                 </Link>
@@ -143,7 +152,7 @@ export default async function ServicesPage({
                 </div>
             </section>
 
-            <ContactCTA lang={lang} dict={dict} />
+            <ContactCTA lang={lang} dict={dict} ctaLabel={dict.servicesPages.global.quoteCta} />
         </>
     );
 }

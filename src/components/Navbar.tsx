@@ -18,6 +18,7 @@ interface NavbarProps {
             industries: string;
             blog: string;
             contact: string;
+            cta: string;
             serviceItems: {
                 hrOutsourcing: string;
                 payroll: string;
@@ -107,6 +108,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                             width={200}
                             height={56}
                             className="h-14 w-auto"
+                            style={{ width: "auto" }}
                             priority
                         />
                     </Link>
@@ -200,7 +202,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                             href={`/${lang}/contact`}
                             className="btn btn-gold text-sm cursor-pointer"
                         >
-                            {dict.nav.contact}
+                            {dict.nav.cta}
                         </Link>
                     </div>
 

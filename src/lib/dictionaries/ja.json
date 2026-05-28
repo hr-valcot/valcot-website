@@ -12,81 +12,90 @@
             "payroll": "給与計算",
             "recruitment": "人材紹介・採用",
             "legal": "法務・コンプライアンス",
-            "accounting": "会計・税務"
+            "accounting": "会計・税務",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         },
         "industryItems": {
             "sme": "中小企業・スタートアップ",
             "representative": "駐在員事務所",
             "multinational": "外資系・多国籍企業"
-        }
+        },
+        "cta": "Free Consultation"
     },
     "topBar": {
-        "phone": "+66 (0) XX-XXX-XXXX",
-        "email": "info@valcotpartners.com"
+        "phone": "0975955664",
+        "email": "info@valcotpartners.com",
+        "line": "@389eefpd",
+        "lineUrl": "https://line.me/R/ti/p/@389eefpd",
+        "address": "1 Empire Tower, Unit 2701-02, 2712-14 (TT 23), 27th Floor, South Sathorn Road, Yan Nawa, Sathon, Bangkok 10120, Thailand",
+        "taxId": "0105568205565",
+        "businessHours": "09:00-18:00"
     },
     "floatingCta": {
-        "text": "無料相談"
+        "text": "Free Consultation"
     },
     "hero": {
-        "title": "信頼できる人事パートナー",
-        "subtitle": "（タイ）",
-        "description": "Valcot Partners は、人事労務アウトソーシングから、給与計算、採用、法務、会計に至るまで包括的にお客様をサポートし、貴社の事業成長を後押しします。",
-        "cta_primary": "お見積り／ご相談",
-        "cta_secondary": "すべてのサービスを見る"
+        "title": "A full-service partner for organizations built to grow with confidence",
+        "subtitle": "",
+        "description": "Valcot Partners brings HR, legal, accounting, tax, technology, events, and travel expertise together in one place, so your team can focus on business growth.",
+        "cta_primary": "Free Consultation",
+        "cta_secondary": "View All Services"
     },
     "services": {
-        "title": "当社のサービス",
-        "subtitle": "人事・バックオフィス業務の完全なソリューション",
-        "viewAll": "すべてのサービス",
-        "learnMore": "さらに詳しく",
+        "title": "8 services designed to move your business forward",
+        "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
+        "viewAll": "View All Services",
+        "learnMore": "Learn More",
         "hrOutsourcing": {
-            "title": "人事・労務アウトソーシング",
-            "description": "雇用契約、福利厚生の管理、および EOR（名義貸し雇用）サービスまで、業務委託に幅広く対応。",
+            "title": "HR Outsourcing & EOR",
+            "description": "Manage people compliantly without building your own HR team",
             "items": [
-                "雇用契約の管理",
-                "福利厚生・保険管理",
-                "EOR（名義貸しによる雇用代行）",
-                "オンボーディング／退職サポート"
+                "Employer of Record (EOR)",
+                "Employment documentation",
+                "Onboarding and offboarding",
+                "Benefits and compliance coordination"
             ]
         },
         "payroll": {
-            "title": "給与計算",
-            "description": "納税申告および社会保険への確実な提出を含む、給与処理の完全なアウトソーシング。",
+            "title": "Payroll Outsourcing",
+            "description": "Accurate payroll, on time, every cycle",
             "items": [
-                "毎月の給与計算処理",
-                "PND 1, 1K, 91（個人所得税）申告",
-                "社会保険の提出代行",
-                "給与明細・月次レポート"
+                "Monthly payroll processing",
+                "OT / allowance / deduction summaries",
+                "Tax and SSO support by scope",
+                "Payroll summary reports"
             ]
         },
         "recruitment": {
-            "title": "人材採用・紹介",
-            "description": "正社員紹介、エグゼクティブ・サーチ、契約社員、大量採用など高品質な採用支援サービス。",
+            "title": "Recruitment & Staffing",
+            "description": "The right people, at the right time, in the right model for your organization",
             "items": [
-                "正社員の人材紹介",
-                "経営層・エグゼクティブサーチ",
-                "契約社員・派遣",
-                "大量採用"
+                "Requirement intake",
+                "Screening and shortlist",
+                "Interview coordination",
+                "Onboarding support by scope"
             ]
         },
         "legal": {
-            "title": "法務・コンプライアンス",
-            "description": "労働許可証（WP）、ビザ、BOI申請、PDPA（個人情報保護法）へのコンプライアンス対応。",
+            "title": "Legal & Compliance",
+            "description": "A stable legal foundation for worry-free growth",
             "items": [
-                "労働許可証・ビザの取得支援",
-                "BOI（タイ投資委員会）申請",
-                "PDPA 対応コンサルティング",
-                "労働法の顧問サービス"
+                "Work Permit & Visa",
+                "BOI and government documentation",
+                "PDPA and labor law",
+                "Contract drafting and review"
             ]
         },
         "accounting": {
-            "title": "会計・税務",
-            "description": "月次記帳、VAT申告、および年次決算などの税務サービス。",
+            "title": "Accounting & Tax",
+            "description": "Reliable numbers are the foundation of better decisions",
             "items": [
-                "月次記帳代行",
-                "月次付加価値税(VAT)申告",
-                "年次財務諸表の作成・決算",
-                "基本的な税務計画"
+                "Accounting and tax documentation support",
+                "Filing coordination by scope",
+                "Audit-ready data preparation",
+                "Certified professional coordination when needed"
             ]
         },
         "hr": {
@@ -105,7 +114,38 @@
                 "チェックリストとタイムラインに基づいた実行力",
                 "期限の遅延やデータの欠如リスクを低減"
             ]
-        }
+        },
+        "eventOrganizer": {
+            "title": "Event Organizer",
+            "description": "From concept to a memorable event experience",
+            "items": [
+                "Event concept planning",
+                "Vendor and venue coordination",
+                "Timeline and run sheet",
+                "Post-event summary"
+            ]
+        },
+        "tourOperator": {
+            "title": "Tour Operator",
+            "description": "Smooth travel from planning to return",
+            "items": [
+                "Itinerary planning",
+                "Accommodation and transport coordination",
+                "Group movement support",
+                "Document and logistics support"
+            ]
+        },
+        "addonServices": {
+            "title": "Add-on Services",
+            "description": "Small details that complete your operating system",
+            "items": [
+                "Statutory filings support",
+                "HR policy and template pack",
+                "Compliance calendar",
+                "HR system / portal"
+            ]
+        },
+        "quoteCta": "Request a Quote"
     },
     "stats": {
         "experience": {
@@ -126,27 +166,23 @@
         }
     },
     "whyValcot": {
-        "title": "Valcot が選ばれる理由",
+        "title": "Why Valcot Partners",
         "reasons": [
             {
-                "title": "ローカル市場の専門知識",
-                "description": "タイの労働法、商習慣、ビジネス文化への深い理解"
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "エンドツーエンド・サービス",
-                "description": "人事・給与から採用・法務・会計まで一貫したカバー力"
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "証明された実績",
-                "description": "タイ全土の100社以上のリーディング・カンパニーから信頼を獲得"
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "100% コンプライアンス遵守",
-                "description": "労働法、税制、PDPA法などを厳格に遵守"
-            },
-            {
-                "title": "あらゆる企業規模に対応",
-                "description": "SME（中小・未上場）から大企業・外資系までスケーラブルなソリューション"
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ]
     },
@@ -218,15 +254,15 @@
         ]
     },
     "contact": {
-        "title": "お問い合わせ",
-        "subtitle": "貴社のビジネスに最適なスコープを策定し、適したサービスモデルを見つける準備はできております。お気軽にご相談ください。",
-        "cta": "面談を予約する",
+        "title": "Sustainable business growth starts with effective systems",
+        "subtitle": "At Valcot Partners, we believe stable growth needs strong support systems across people, payroll, legal, accounting, technology, and back-office operations. We help reduce workload, improve accuracy, and move your business forward with confidence. Start with a free 30-minute consultation and we will help identify which services fit your situation at no cost.",
+        "cta": "Book a Free 30-Minute Consultation",
         "form": {
             "name": "お名前",
             "company": "会社名",
             "email": "メールアドレス",
             "phone": "電話番号",
-            "employees": "従業員数規模",
+            "employees": "Number of Employees",
             "service": "ご興味のあるサービス",
             "message": "メッセージ詳細内容",
             "submit": "送信する",
@@ -236,18 +272,29 @@
                 "recruitment": "人材紹介・採用",
                 "legal": "法務コンプライアンス",
                 "accounting": "会計・税務",
-                "other": "その他"
-            }
+                "other": "その他",
+                "eventOrganizer": "Event Organizer",
+                "tourOperator": "Tour Operator",
+                "addonServices": "Add-on Services"
+            },
+            "employeePlaceholder": "— Select number of employees —",
+            "employeeOptions": [
+                "Less than 10",
+                "10-50",
+                "51-200",
+                "201-500",
+                "More than 500"
+            ]
         },
         "info": {
             "businessHours": "営業時間",
-            "hours": "月 - 金曜: 9:00 AM - 6:00 PM",
-            "line": "@valcotpartners"
+            "hours": "09:00-18:00",
+            "line": "@389eefpd"
         }
     },
     "footer": {
-        "tagline": "パートナーシップの価値 (Value in Partnership)",
-        "description": "タイにおける信頼できる HR パートナー",
+        "tagline": "Valcot Partners — Your Trusted Partner for Business Support Solutions",
+        "description": "Integrated business support across HR, payroll, legal, accounting and tax, technology, events, and travel for stable business growth.",
         "columns": {
             "about": "当社の情報",
             "services": "サービス一覧",
@@ -262,12 +309,13 @@
         },
         "quickLinks": "クイックリンク",
         "contact": "お問い合わせ先",
-        "copyright": "© 2569 Valcot Partners Co., Ltd. All rights reserved."
+        "copyright": "© 2026 Valcot Partners Co., Ltd. All Rights Reserved.",
+        "cta": "Contact the Team"
     },
     "contactPage": {
         "responseBadge": "24時間以内にご返答します",
         "heroTitle": "お問い合わせ",
-        "heroSubtitle": "ご質問、お見積もりのご依頼、人事に関するご相談など、お気軽にお問い合わせください。専門チームが24時間以内に対応いたします。",
+        "heroSubtitle": "Tell us about your business. The Valcot Partners team will help assess the right service scope and respond within 24 hours.",
         "formTitle": "メッセージを送信",
         "name": "お名前",
         "email": "メールアドレス",
@@ -280,41 +328,53 @@
         "submit": "送信する",
         "officeAddress": "オフィス所在地",
         "businessHoursLabel": "営業時間",
-        "businessHoursText": "月曜日 – 金曜日, 9:00 – 18:00",
+        "businessHoursText": "09:00-18:00",
         "services": {
             "recruitment": "人材採用",
             "legal": "法務",
             "accounting": "会計",
             "other": "その他"
+        },
+        "employees": "Number of Employees",
+        "employeePlaceholder": "— Select number of employees —",
+        "employeeOptions": [
+            "Less than 10",
+            "10-50",
+            "51-200",
+            "201-500",
+            "More than 500"
+        ],
+        "serviceOptions": {
+            "hrOutsourcing": "人事・労務アウトソーシング",
+            "payroll": "給与計算",
+            "recruitment": "人材紹介・採用",
+            "legal": "法務コンプライアンス",
+            "accounting": "会計・税務",
+            "other": "その他",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         }
     },
     "whyValcotPage": {
-        "heroTitle": "Valcot Partnersが選ばれる理由",
-        "heroSubtitle": "100社以上の企業が当社に人事とバックオフィス業務を委託している理由",
+        "heroTitle": "Why Valcot Partners",
+        "heroSubtitle": "Complete, compliant, transparent business support designed around each organization’s context.",
         "reasons": [
             {
-                "title": "10年以上の経験",
-                "description": "私たちのチームは、人事、給与計算、コンプライアンスにおいて10年以上の専門知識を持ち、多様な業界に向けてサービスを提供しています。"
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "プロフェッショナルチーム",
-                "description": "人事管理、給与計算の専門家、労働法規制から会計顧問まで、各領域のエキスパートが対応します。"
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "エンドツーエンドのソリューション",
-                "description": "人事アウトソーシング、給与計算、採用、労働法から会計・税務まで、すべてをワンストップで提供します。"
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "プロアクティブなサービス",
-                "description": "単に指示に従うだけでなく、問題が発生する前にアドバイスを行い防止する、前向きなパートナーとして機能します。"
-            },
-            {
-                "title": "適正な価格設定",
-                "description": "隠れた費用のない、合理的で透明性の高い適正価格。初回相談は無料です。"
-            },
-            {
-                "title": "100%のコンプライアンス",
-                "description": "すべてのオペレーションは、労働法、税務要件、および関連するすべての法定要件を完全に遵守しています。"
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ],
         "valuesTitle": "コアバリュー",
@@ -367,7 +427,7 @@
     "aboutPage": {
         "badge": "私たちについて",
         "heroTitle": "Valcot Partnersについて",
-        "heroSubtitle": "実際の経験に基づいて構築され、クライアントの成功によって推進される — タイの企業が信頼するHRパートナー。",
+        "heroSubtitle": "A Business Support Solutions partner connecting people, legal, finance, technology, and operations into one reliable support system.",
         "stats": [
             {
                 "label": "年以上の経験"
@@ -382,11 +442,11 @@
                 "label": "の満足度達成"
             }
         ],
-        "storyTitle": "私たちのストーリー",
-        "storyP1": "Valcot Partnersは明確な使命のもとに設立されました：タイ市場に参入する企業に世界クラスのHRサービスを提供すること。私たちは、現地の法律のナビゲートから文化的な微妙な違い、不慣れなシステムまで、海外で人を管理することは決して簡単ではないことを理解しています。",
-        "storyP2": "現在、Valcot Partnersはスタートアップから多国籍企業まで、多様なクライアントにサービスを提供しています。私たちのサービスは人事、給与計算、採用、および法務にわたり、人事に関するすべての単一の窓口（ワンストップ）を提供できるよう設計されています。",
-        "missionTitle": "ミッション",
-        "missionText": "タイの企業に信頼性が高く、コンプライアンスを遵守し、拡張可能なHRサービスを提供することで、クライアントが企業のコアビジネスに集中できるようにします。私たちは皆さまの最も価値あるリソースである「人」の大切なケアを担います。",
+        "storyTitle": "A partner that understands your business",
+        "storyP1": "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+        "storyP2": "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs.",
         "coreValuesTitle": "コアバリュー",
         "values": [
             {
@@ -408,7 +468,14 @@
         ],
         "ctaTitle": "私たちをあなたのHRパートナーにする準備はできましたか？",
         "ctaSubtitle": "相談無料、お気軽にお問い合わせください。",
-        "ctaButton": "無料相談"
+        "ctaButton": "Book a Free 30-Minute Consultation",
+        "storyParagraphs": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth."
     },
     "industriesPages": {
         "badge": "対応業界",
@@ -467,7 +534,7 @@
     "servicesPages": {
         "global": {
             "enterpriseSolutions": "企業向けソリューション",
-            "subtitle": "あらゆる側面を網羅する世界クラスのサービスで、組織の管理を強化します。",
+            "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
             "optionalAddons": "オプション / アドオン",
             "disclaimer": "Valcotのサービスは、品質と正確性を確保するため、合意された作業範囲（スコープ）に基づいて提供されます。スコープ外または追加の複雑な作業は、実行前に評価し提案します。",
             "addons": [
@@ -487,14 +554,15 @@
                     "title": "HRシステム・ポータル",
                     "desc": "近日公開"
                 }
-            ]
+            ],
+            "quoteCta": "Request a Quote"
         },
         "hrOutsourcing": {
             "badge": "包括的なHRサービス",
             "heroTitle1": "あらゆる側面をカバーする",
             "heroTitle2": "HRおよびEORソリューション",
             "heroSubtitle": "ビジネスの成長に集中し、人事管理は私たちにお任せください。国際標準の記録上の雇用主（EOR）およびHRアウトソーシングサービス。",
-            "getConsultation": "無料相談を受ける",
+            "getConsultation": "Request a Quote",
             "complianceStatus": "コンプライアンス状況",
             "complianceDesc": "全従業員が関連法規に準拠",
             "highlights": [
@@ -538,7 +606,7 @@
             "coverageDesc": "検証可能なレポートを備えたプロフェッショナルな管理により、すべてのプロセスで安心を提供します。",
             "ctaTitle": "人事管理をシンプルにする準備はできましたか？",
             "ctaSubtitle": "相談無料、義務はありません。お客様のHRに関する課題をお聞かせいただければ、解決策を設計します。",
-            "ctaButton": "今すぐお問い合わせ",
+            "ctaButton": "Request a Quote",
             "check1": "HRのすべての問題をカバー",
             "check2": "法的リスクの低減"
         },
@@ -547,7 +615,7 @@
             "heroTitle1": "正確で時間通りに",
             "heroTitle2": "心配無用の給与計算",
             "heroSubtitle": "計算ミスはもうありません。私たちのチームは、全員に正しく給与が支払われ、税金が期限内に申告され、労働法が厳格に従われていることを保証します。",
-            "getConsultation": "お見積り依頼",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -575,7 +643,7 @@
             "coverageDesc": "専門家によって運営されているため、エラーが削減され、時間が節約され、組織がスムーズに機能します。",
             "ctaTitle": "複雑な作業は私たちに任せて、ビジネスに集中してください。",
             "ctaSubtitle": "信頼性が高く、安全で、100％正確な給与計算サービス。今すぐ給与システムの移行を始めましょう。",
-            "ctaButton": "サービス料金を見る",
+            "ctaButton": "Request a Quote",
             "check1": "厳重な機密保持",
             "check2": "監査対応可能な明確な報告書"
         },
@@ -584,7 +652,7 @@
             "heroTitle1": "ビジネス成長に不可欠な",
             "heroTitle2": "最適な人材をマッチング",
             "heroSubtitle": "時間は有限です。我々の専任エキスパートに、企業のカルチャーに完璧にフィットする最も優秀な候補者のヘッドハンティングをお任せください。",
-            "getConsultation": "採用要件を送信する",
+            "getConsultation": "Request a Quote",
             "candidateShortlist": "選考を通過した候補者",
             "highlights": [
                 {
@@ -644,7 +712,7 @@
             ],
             "ctaTitle": "最強の組織・チームを構築する準備はできましたか？",
             "ctaSubtitle": "お探しの人物像をお聞かせください。当社のヘッドハンターがプレミアムネットワークを駆使して即座に探し出します。完全成功報酬型。",
-            "ctaButton": "採用チームに連絡する",
+            "ctaButton": "Request a Quote",
             "check1": "確かな入社保証",
             "check2": "徹底した機密保持と非公開対応"
         },
@@ -653,7 +721,7 @@
             "heroTitle1": "あなたのビジネスを守る",
             "heroTitle2": "揺るぎない法的基盤で",
             "heroSubtitle": "ワークパーミットからBOI、そしてPDPA（個人情報保護法）への対応まで。当社の法務アドバイザーがタイでの円滑な事業運営を100%合法的に確保します。官僚的な手続きは当社に任せ、ビジネスに集中してください。",
-            "getConsultation": "法務専門家に無料相談",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "正確無比",
@@ -681,7 +749,7 @@
             "coverageDesc": "潜在的なリスクを徹底的に防ぎ、出入国手続きやすべての書類を検証することで、貴社のビジネスのすべてのステップが完全かつシームレスであることを保証します。",
             "ctaTitle": "タイで安全かつ確実に事業を展開する準備ができましたか？",
             "ctaSubtitle": "複雑な法的手続きや煩雑な政府向け提出書類はプロフェッショナルなチームに委任しましょう。まずはご相談ください。",
-            "ctaButton": "法務エキスパートに相談する",
+            "ctaButton": "Request a Quote",
             "check1": "ゼロリスク・アプローチ",
             "check2": "完全に透明で検証可能な進行報告"
         },
@@ -690,7 +758,7 @@
             "heroTitle1": "整然とした帳簿管理",
             "heroTitle2": "期日通りの税務申告",
             "heroSubtitle": "正確な帳簿と遅延のない税務申告は、安定した企業経営の根幹です。当社の経験豊富な専門会計チームが、これらすべてをシームレスかつ完璧に処理します。",
-            "getConsultation": "無料コンサルティングを予約",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -718,9 +786,21 @@
             "coverageDesc": "歳入局の規制に厳格に従いながら、迅速かつ1ミリの狂いもなく業務を遂行し、会社の大切な利益と評判を守り抜きます。",
             "ctaTitle": "あなたの会計システムを一段上のレベルへ引き上げる準備はできていますか？",
             "ctaSubtitle": "書類の山や終わらない数字の計算で頭を悩ませるのはもう終わりにしましょう。信頼できるパートナーにお任せください。初回相談無料、明確で隠し費用なしの料金システムです。",
-            "ctaButton": "今すぐお問い合わせ",
+            "ctaButton": "Request a Quote",
             "check1": "圧倒的なレスポンスの早さ",
             "check2": "不透明な追加費用なし"
         }
+    },
+    "aboutPreview": {
+        "heading": "A partner that understands your business",
+        "body": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs."
     }
 }

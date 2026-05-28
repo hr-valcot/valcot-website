@@ -12,81 +12,90 @@
             "payroll": "薪酬管理 (Payroll)",
             "recruitment": "人才招聘",
             "legal": "法律与合规",
-            "accounting": "财税代理"
+            "accounting": "财税代理",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         },
         "industryItems": {
             "sme": "中小企业与初创公司",
             "representative": "代表处",
             "multinational": "跨国公司"
-        }
+        },
+        "cta": "Free Consultation"
     },
     "topBar": {
-        "phone": "+66 (0) XX-XXX-XXXX",
-        "email": "info@valcotpartners.com"
+        "phone": "0975955664",
+        "email": "info@valcotpartners.com",
+        "line": "@389eefpd",
+        "lineUrl": "https://line.me/R/ti/p/@389eefpd",
+        "address": "1 Empire Tower, Unit 2701-02, 2712-14 (TT 23), 27th Floor, South Sathorn Road, Yan Nawa, Sathon, Bangkok 10120, Thailand",
+        "taxId": "0105568205565",
+        "businessHours": "09:00-18:00"
     },
     "floatingCta": {
-        "text": "免费咨询"
+        "text": "Free Consultation"
     },
     "hero": {
-        "title": "值得信赖的人力资源合作伙伴",
-        "subtitle": "（泰国）",
-        "description": "Valcot Partners 提供全面的人力资源外包、薪酬福利、招聘、法律与财税服务 —— 让您可以全身心专注于业务增长。",
-        "cta_primary": "预约咨询 / 获取报价",
-        "cta_secondary": "查看所有服务"
+        "title": "A full-service partner for organizations built to grow with confidence",
+        "subtitle": "",
+        "description": "Valcot Partners brings HR, legal, accounting, tax, technology, events, and travel expertise together in one place, so your team can focus on business growth.",
+        "cta_primary": "Free Consultation",
+        "cta_secondary": "View All Services"
     },
     "services": {
-        "title": "我们的服务",
-        "subtitle": "针对人力资源与后台运营的一站式解决方案",
-        "viewAll": "查看所有服务",
-        "learnMore": "了解更多",
+        "title": "8 services designed to move your business forward",
+        "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
+        "viewAll": "View All Services",
+        "learnMore": "Learn More",
         "hrOutsourcing": {
-            "title": "人力资源外包",
-            "description": "全面的人力资源外包服务，包括劳动合同管理、福利管理和名义雇主 (EOR) 服务。",
+            "title": "HR Outsourcing & EOR",
+            "description": "Manage people compliantly without building your own HR team",
             "items": [
-                "劳动合同管理",
-                "员工福利管理",
-                "名义雇主 (EOR) 服务",
-                "入职/离职流程支持"
+                "Employer of Record (EOR)",
+                "Employment documentation",
+                "Onboarding and offboarding",
+                "Benefits and compliance coordination"
             ]
         },
         "payroll": {
-            "title": "薪酬管理",
-            "description": "完整的薪酬处理服务，保证按时进行税务申报及社保缴纳。",
+            "title": "Payroll Outsourcing",
+            "description": "Accurate payroll, on time, every cycle",
             "items": [
-                "月度薪水结算",
-                "PND 1, 1K, 91 个人所得税申报",
-                "社保费用代缴",
-                "薪酬汇总报告"
+                "Monthly payroll processing",
+                "OT / allowance / deduction summaries",
+                "Tax and SSO support by scope",
+                "Payroll summary reports"
             ]
         },
         "recruitment": {
-            "title": "人才招聘",
-            "description": "提供优质的人才招聘服务，包括全职招聘、高管猎聘、合同工以及批量招聘。",
+            "title": "Recruitment & Staffing",
+            "description": "The right people, at the right time, in the right model for your organization",
             "items": [
-                "全职人才招聘",
-                "高管猎头服务 (Executive Search)",
-                "项目制合同工",
-                "大批量人才招聘"
+                "Requirement intake",
+                "Screening and shortlist",
+                "Interview coordination",
+                "Onboarding support by scope"
             ]
         },
         "legal": {
-            "title": "法律与合规",
-            "description": "专业的法律服务，涵盖工作准证办理、签证、BOI 申请和 PDPA 个人数据保护合规。",
+            "title": "Legal & Compliance",
+            "description": "A stable legal foundation for worry-free growth",
             "items": [
-                "工作准证 (Work Permit) 与签证",
-                "BOI（泰国投资促进委员会）申请",
-                "PDPA（泰国个人数据保护法）合规",
-                "劳动法咨询顾问"
+                "Work Permit & Visa",
+                "BOI and government documentation",
+                "PDPA and labor law",
+                "Contract drafting and review"
             ]
         },
         "accounting": {
-            "title": "会计与税务",
-            "description": "提供每月记账、增值税申报服务，以及年度财务决算。",
+            "title": "Accounting & Tax",
+            "description": "Reliable numbers are the foundation of better decisions",
             "items": [
-                "月度记账",
-                "月度增值税申报",
-                "年度财务核算结账",
-                "基础税务规划协助"
+                "Accounting and tax documentation support",
+                "Filing coordination by scope",
+                "Audit-ready data preparation",
+                "Certified professional coordination when needed"
             ]
         },
         "hr": {
@@ -105,7 +114,38 @@
                 "基于检查清单与时间节点推进各项任务",
                 "降低资料遗失与逾期产生的合规风险"
             ]
-        }
+        },
+        "eventOrganizer": {
+            "title": "Event Organizer",
+            "description": "From concept to a memorable event experience",
+            "items": [
+                "Event concept planning",
+                "Vendor and venue coordination",
+                "Timeline and run sheet",
+                "Post-event summary"
+            ]
+        },
+        "tourOperator": {
+            "title": "Tour Operator",
+            "description": "Smooth travel from planning to return",
+            "items": [
+                "Itinerary planning",
+                "Accommodation and transport coordination",
+                "Group movement support",
+                "Document and logistics support"
+            ]
+        },
+        "addonServices": {
+            "title": "Add-on Services",
+            "description": "Small details that complete your operating system",
+            "items": [
+                "Statutory filings support",
+                "HR policy and template pack",
+                "Compliance calendar",
+                "HR system / portal"
+            ]
+        },
+        "quoteCta": "Request a Quote"
     },
     "stats": {
         "experience": {
@@ -126,27 +166,23 @@
         }
     },
     "whyValcot": {
-        "title": "为什么选择 Valcot",
+        "title": "Why Valcot Partners",
         "reasons": [
             {
-                "title": "深谙本地市场",
-                "description": "对泰国劳动法、文化和商业生态有深度的理解"
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "端到端一站式服务",
-                "description": "全面覆盖企业人事、薪酬、招聘、法律与财税业务"
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "深受行业认可",
-                "description": "赢得了泰国全境超过100家领先企业的长久信任"
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "100% 严格合规",
-                "description": "严格遵循当地劳动法规、税务政策与数据保护法案"
-            },
-            {
-                "title": "适合不同规模企业",
-                "description": "为初创公司到大型企业提供灵活、可扩展的解决方案"
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ]
     },
@@ -218,15 +254,15 @@
         ]
     },
     "contact": {
-        "title": "联系我们",
-        "subtitle": "我们准备好为您评估业务现状，并定制适合您企业的专属服务模型",
-        "cta": "立即预约沟通",
+        "title": "Sustainable business growth starts with effective systems",
+        "subtitle": "At Valcot Partners, we believe stable growth needs strong support systems across people, payroll, legal, accounting, technology, and back-office operations. We help reduce workload, improve accuracy, and move your business forward with confidence. Start with a free 30-minute consultation and we will help identify which services fit your situation at no cost.",
+        "cta": "Book a Free 30-Minute Consultation",
         "form": {
             "name": "姓名/称呼",
             "company": "公司名称",
             "email": "电子邮箱",
             "phone": "联系电话",
-            "employees": "员工规模",
+            "employees": "Number of Employees",
             "service": "感兴趣的服务",
             "message": "描述您的需求 (留言)",
             "submit": "提交信息",
@@ -236,18 +272,29 @@
                 "recruitment": "人才招聘",
                 "legal": "法律与合规",
                 "accounting": "会计与税务",
-                "other": "其他"
-            }
+                "other": "其他",
+                "eventOrganizer": "Event Organizer",
+                "tourOperator": "Tour Operator",
+                "addonServices": "Add-on Services"
+            },
+            "employeePlaceholder": "— Select number of employees —",
+            "employeeOptions": [
+                "Less than 10",
+                "10-50",
+                "51-200",
+                "201-500",
+                "More than 500"
+            ]
         },
         "info": {
             "businessHours": "办公时间",
-            "hours": "周一至周五: 9:00 AM - 6:00 PM",
-            "line": "@valcotpartners"
+            "hours": "09:00-18:00",
+            "line": "@389eefpd"
         }
     },
     "footer": {
-        "tagline": "专业源自信誉 (Value in Partnership)",
-        "description": "您在泰国最值得信赖的 HR 与企业服务伙伴",
+        "tagline": "Valcot Partners — Your Trusted Partner for Business Support Solutions",
+        "description": "Integrated business support across HR, payroll, legal, accounting and tax, technology, events, and travel for stable business growth.",
         "columns": {
             "about": "关于我们",
             "services": "核心服务",
@@ -262,12 +309,13 @@
         },
         "quickLinks": "快速链接",
         "contact": "联络方式",
-        "copyright": "© 2569 Valcot Partners Co., Ltd. 保留所有权利."
+        "copyright": "© 2026 Valcot Partners Co., Ltd. All Rights Reserved.",
+        "cta": "Contact the Team"
     },
     "contactPage": {
         "responseBadge": "24小时内回复",
         "heroTitle": "联系我们",
-        "heroSubtitle": "有问题、需要报价或想了解HR服务？请联系我们，团队将在24小时内回复。",
+        "heroSubtitle": "Tell us about your business. The Valcot Partners team will help assess the right service scope and respond within 24 hours.",
         "formTitle": "发送留言",
         "name": "全名",
         "email": "电子邮件",
@@ -280,41 +328,53 @@
         "submit": "发送消息",
         "officeAddress": "办公地址",
         "businessHoursLabel": "营业时间",
-        "businessHoursText": "周一至周五，9:00 – 18:00",
+        "businessHoursText": "09:00-18:00",
         "services": {
             "recruitment": "人才招聘",
             "legal": "法律顾问",
             "accounting": "会计服务",
             "other": "其他"
+        },
+        "employees": "Number of Employees",
+        "employeePlaceholder": "— Select number of employees —",
+        "employeeOptions": [
+            "Less than 10",
+            "10-50",
+            "51-200",
+            "201-500",
+            "More than 500"
+        ],
+        "serviceOptions": {
+            "hrOutsourcing": "人力资源外包",
+            "payroll": "薪酬管理",
+            "recruitment": "人才招聘",
+            "legal": "法律与合规",
+            "accounting": "会计与税务",
+            "other": "其他",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         }
     },
     "whyValcotPage": {
-        "heroTitle": "为什么选择 Valcot Partners",
-        "heroSubtitle": "100多家企业信任我们将HR和后台运营交予我们的原因",
+        "heroTitle": "Why Valcot Partners",
+        "heroSubtitle": "Complete, compliant, transparent business support designed around each organization’s context.",
         "reasons": [
             {
-                "title": "10年以上经验",
-                "description": "团队在人力资源、薪酬和合规领域拥有超过10年的专业经验，服务遍及各个行业。"
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "专业团队",
-                "description": "从人事行政、薪酬专员、劳动法专家到会计顾问的各领域专家。"
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "端到端解决方案",
-                "description": "从人力资源外包、薪酬、招聘、法律到财务和税务——全部集中管理。"
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "主动服务",
-                "description": "我们不仅仅听从指令，更是您的主动合作伙伴，在问题发生前提供建议并防患于未然。"
-            },
-            {
-                "title": "公平定价",
-                "description": "价格合理透明，无隐藏费用。提供首次免费咨询。"
-            },
-            {
-                "title": "100%合规",
-                "description": "各项操作均严格符合劳动法、税务规定和所有相关的法定要求。"
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ],
         "valuesTitle": "核心价值观",
@@ -367,7 +427,7 @@
     "aboutPage": {
         "badge": "关于我们",
         "heroTitle": "关于 Valcot Partners",
-        "heroSubtitle": "基于实际业务经验，由客户的成功驱动——泰国企业最值得信赖的HR合作伙伴。",
+        "heroSubtitle": "A Business Support Solutions partner connecting people, legal, finance, technology, and operations into one reliable support system.",
         "stats": [
             {
                 "label": "年行业经验"
@@ -382,11 +442,11 @@
                 "label": "的客户满意度"
             }
         ],
-        "storyTitle": "企业故事",
-        "storyP1": "Valcot Partners 的成立有着明确的使命：为进入泰国市场的企业提供世界级的HR服务。我们深知在海外管理团队绝非易事——其中涉及到驾驭当地复杂法律、文化差异和陌生系统等挑战。",
-        "storyP2": "今天，Valcot Partners 为各种类型的客户提供服务——从初创企业到跨国公司。我们的服务涵盖HR行政、薪酬管理、人才招聘及法律咨询，旨在为您解决所有人事行政外包需求。",
-        "missionTitle": "企业使命",
-        "missionText": "在泰国为企业注入可靠、合规且可扩展的HR服务力量——让我们的客户可以专注于其核心业务，而我们将妥善照顾您最宝贵的资产：您的员工。",
+        "storyTitle": "A partner that understands your business",
+        "storyP1": "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+        "storyP2": "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs.",
         "coreValuesTitle": "核心价值观",
         "values": [
             {
@@ -408,7 +468,14 @@
         ],
         "ctaTitle": "准备好让我们成为您的HR合作伙伴了吗？",
         "ctaSubtitle": "免费咨询，无任何附加条件或隐形成本。",
-        "ctaButton": "免费咨询"
+        "ctaButton": "Book a Free 30-Minute Consultation",
+        "storyParagraphs": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth."
     },
     "industriesPages": {
         "badge": "行业领域",
@@ -467,7 +534,7 @@
     "servicesPages": {
         "global": {
             "enterpriseSolutions": "企业级解决方案",
-            "subtitle": "通过我们全面的世界级服务，提升贵组织的管理水平。",
+            "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
             "optionalAddons": "增值附加服务",
             "disclaimer": "Valcot 的服务均基于双方同意的工作范围(Scope)提供，以确保服务质量和准确性。任何超出范围或额外复杂的工作都将在执行前进行评估并提出方案。",
             "addons": [
@@ -487,14 +554,15 @@
                     "title": "HR 管理系统/门户",
                     "desc": "即将推出"
                 }
-            ]
+            ],
+            "quoteCta": "Request a Quote"
         },
         "hrOutsourcing": {
             "badge": "全方位人力资源外包",
             "heroTitle1": "全面覆盖的",
             "heroTitle2": "HR与EOR名义雇主解决方案",
             "heroSubtitle": "您只需专注于拓展业务，把人员管理交给我们。我们提供符合国际标准的名义雇主(EOR)和人力资源外包服务。",
-            "getConsultation": "免费获取咨询",
+            "getConsultation": "Request a Quote",
             "complianceStatus": "合规状态",
             "complianceDesc": "所有员工均符合当地法律要求",
             "highlights": [
@@ -538,7 +606,7 @@
             "coverageDesc": "由专业团队管理系统，提供可核实的透明报告，让您在每个环节都安心无忧。",
             "ctaTitle": "准备好让人员管理变得更简单了吗？",
             "ctaSubtitle": "免费咨询，无任何附加条件。告诉我们您面临的HR挑战，我们将为您量身定制解决方案。",
-            "ctaButton": "立即联系我们",
+            "ctaButton": "Request a Quote",
             "check1": "全面覆盖所有HR事务",
             "check2": "大幅降低法律风险"
         },
@@ -547,7 +615,7 @@
             "heroTitle1": "精准无误、按时发放",
             "heroTitle2": "让您无忧的薪资系统",
             "heroSubtitle": "告别计算错误。我们的专业团队确保所有员工薪资精准发放，按时报税，并严格遵循所有劳动法规定。",
-            "getConsultation": "索取报价",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -575,7 +643,7 @@
             "coverageDesc": "由资深财务及HR专家操作，大幅降低错误率并节省时间，让您的机构运转更加流畅。",
             "ctaTitle": "让我们处理复杂的规则，让您专心处理业务。",
             "ctaSubtitle": "可靠、安全、100%准确的薪资外包服务。今天就开始与我们完成薪酬系统的平滑过渡吧。",
-            "ctaButton": "获取服务费率方案",
+            "ctaButton": "Request a Quote",
             "check1": "严格的数据防泄漏保密",
             "check2": "满足随时审计的清晰报告"
         },
@@ -584,7 +652,7 @@
             "heroTitle1": "链接不可或缺的",
             "heroTitle2": "顶级本土精英人才",
             "heroSubtitle": "时间极其宝贵。让我们的资深招聘专家替您捕捉到那些才华出众且完美契合您企业文化的杰出候选人。",
-            "getConsultation": "提交招聘需求",
+            "getConsultation": "Request a Quote",
             "candidateShortlist": "评估过关的候选名单",
             "highlights": [
                 {
@@ -644,7 +712,7 @@
             ],
             "ctaTitle": "准备好组建无懈可击的核心护城河团队了吗？",
             "ctaSubtitle": "描述您的急缺用人需求，我们的顶尖猎头将立刻启动网络进行匹配。无成功录用，则无任何前期费用。",
-            "ctaButton": "立即联系招聘顾问",
+            "ctaButton": "Request a Quote",
             "check1": "安心入职保障期",
             "check2": "极其谨慎机密的触达方法"
         },
@@ -653,7 +721,7 @@
             "heroTitle1": "保障您的商业基盘",
             "heroTitle2": "构筑坚不可摧的法务地基",
             "heroSubtitle": "无论是工作许可(Work Permit)申请，还是BOI投资促进甚至泰国PDPA合规，我们的法务铁军将为贵司扫清一切泰国运营的政策暗礁。您只管乘风破浪扩展版图，那些耗时的官僚红头文件由我们来全部搞定。",
-            "getConsultation": "预约法务专家对话",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "全面精准",
@@ -681,7 +749,7 @@
             "coverageDesc": "防范潜在重大商业隐患并确保每份流转出境文件丝毫不差。让您生意的每一次跨国跳跃，都踩在坚不可摧的安全边界之内。",
             "ctaTitle": "泰国运营稳舵前行，在此刻启动？",
             "ctaSubtitle": "将极其棘手且风险未知的合规事宜交付给在本地实战多年的职业团队吧。请即刻联系我们。",
-            "ctaButton": "致电法务专线",
+            "ctaButton": "Request a Quote",
             "check1": "真正的全链路零风险风控",
             "check2": "进度高度透明可供随时核对"
         },
@@ -690,7 +758,7 @@
             "heroTitle1": "精准分类每一笔记账",
             "heroTitle2": "在合法的轨道内提前避税",
             "heroSubtitle": "账目清晰与报税准点，一家卓越企业生存的命脉基石。通过我们执业级专业财会团队之手，将一团乱麻的数据报表完美梳理为您扩张的隐形助力。",
-            "getConsultation": "获取财税诊断简报",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -718,9 +786,21 @@
             "coverageDesc": "迅如闪电的作业，恪尽职守遵循泰国严苛审计规则——我们的存在，皆为化解贵公司财产侵蚀之忧。",
             "ctaTitle": "打算让粗糙的账目重见天日并获得真正的健康了吗？",
             "ctaSubtitle": "从此告别那些让大脑短路的凭证复印件海。选择信任且硬核的伙伴介入，首次面谈全部减免收费，服务项全透明不坐地起价。",
-            "ctaButton": "启动财税焕新计划",
+            "ctaButton": "Request a Quote",
             "check1": "火速秒答无拖延",
             "check2": "一口价无隐藏陷阱费"
         }
+    },
+    "aboutPreview": {
+        "heading": "A partner that understands your business",
+        "body": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs."
     }
 }

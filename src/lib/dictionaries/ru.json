@@ -12,81 +12,90 @@
             "payroll": "Расчет заработной платы",
             "recruitment": "Подбор персонала",
             "legal": "Юридические услуги",
-            "accounting": "Бухгалтерия и налоги"
+            "accounting": "Бухгалтерия и налоги",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         },
         "industryItems": {
             "sme": "МСБ и Стартапы",
             "representative": "Представительства",
             "multinational": "Международные компании"
-        }
+        },
+        "cta": "Free Consultation"
     },
     "topBar": {
-        "phone": "+66 (0) XX-XXX-XXXX",
-        "email": "info@valcotpartners.com"
+        "phone": "0975955664",
+        "email": "info@valcotpartners.com",
+        "line": "@389eefpd",
+        "lineUrl": "https://line.me/R/ti/p/@389eefpd",
+        "address": "1 Empire Tower, Unit 2701-02, 2712-14 (TT 23), 27th Floor, South Sathorn Road, Yan Nawa, Sathon, Bangkok 10120, Thailand",
+        "taxId": "0105568205565",
+        "businessHours": "09:00-18:00"
     },
     "floatingCta": {
-        "text": "Бесплатная консультация"
+        "text": "Free Consultation"
     },
     "hero": {
-        "title": "Ваш надежный HR-партнер",
-        "subtitle": "в Таиланде",
-        "description": "Valcot Partners предоставляет комплексные услуги по HR-аутсорсингу, расчету заработной платы, подбору персонала, юридической и бухгалтерской поддержке, чтобы вы могли полностью сосредоточиться на развитии своего бизнеса.",
-        "cta_primary": "Назначить звонок / Запросить цену",
-        "cta_secondary": "Смотреть все услуги"
+        "title": "A full-service partner for organizations built to grow with confidence",
+        "subtitle": "",
+        "description": "Valcot Partners brings HR, legal, accounting, tax, technology, events, and travel expertise together in one place, so your team can focus on business growth.",
+        "cta_primary": "Free Consultation",
+        "cta_secondary": "View All Services"
     },
     "services": {
-        "title": "Наши Услуги",
-        "subtitle": "Комплексные решения для HR и оперативной поддержки",
-        "viewAll": "Все услуги",
-        "learnMore": "Узнать больше",
+        "title": "8 services designed to move your business forward",
+        "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
+        "viewAll": "View All Services",
+        "learnMore": "Learn More",
         "hrOutsourcing": {
-            "title": "HR Аутсорсинг",
-            "description": "Полный HR-аутсорсинг, включая подготовку трудовых договоров, управление льготами и услуги номинального работодателя (EOR).",
+            "title": "HR Outsourcing & EOR",
+            "description": "Manage people compliantly without building your own HR team",
             "items": [
-                "Управление трудовыми договорами",
-                "Администрирование льгот сотрудников",
-                "Услуги номинального работодателя (EOR)",
-                "Поддержка при приеме/увольнении сотрудников"
+                "Employer of Record (EOR)",
+                "Employment documentation",
+                "Onboarding and offboarding",
+                "Benefits and compliance coordination"
             ]
         },
         "payroll": {
-            "title": "Расчет заработной платы",
-            "description": "Полный цикл начисления заработной платы, подача налоговых деклараций и отчислений в фонды социального страхования в срок.",
+            "title": "Payroll Outsourcing",
+            "description": "Accurate payroll, on time, every cycle",
             "items": [
-                "Ежемесячный расчет зарплаты",
-                "Заполнение налоговых форм PND 1, 1K, 91",
-                "Отчисления в систему соцстрахования",
-                "Подробные зарплатные сводки и отчеты"
+                "Monthly payroll processing",
+                "OT / allowance / deduction summaries",
+                "Tax and SSO support by scope",
+                "Payroll summary reports"
             ]
         },
         "recruitment": {
-            "title": "Подбор персонала",
-            "description": "Качественные услуги по подбору талантов: от массовых позиций и контрактников до руководителей высшего звена.",
+            "title": "Recruitment & Staffing",
+            "description": "The right people, at the right time, in the right model for your organization",
             "items": [
-                "Подбор штатного персонала",
-                "Целевой поиск руководителей (Executive Search)",
-                "Краткосрочный найм (Contract Staffing)",
-                "Массовый подбор"
+                "Requirement intake",
+                "Screening and shortlist",
+                "Interview coordination",
+                "Onboarding support by scope"
             ]
         },
         "legal": {
-            "title": "Юридические Услуги",
-            "description": "Комплексная правовая помощь: разрешение на работу (Work Permit), визы, участие в BOI и соблюдение правил по защите данных (PDPA).",
+            "title": "Legal & Compliance",
+            "description": "A stable legal foundation for worry-free growth",
             "items": [
-                "Рабочие визы и разрешения (WP)",
-                "Поддержка заявок на субсидии от BOI",
-                "Консультирование по нормам PDPA",
-                "Правовая экспертиза по трудовому праву"
+                "Work Permit & Visa",
+                "BOI and government documentation",
+                "PDPA and labor law",
+                "Contract drafting and review"
             ]
         },
         "accounting": {
-            "title": "Бухгалтерия и Налоги",
-            "description": "Ежемесячное ведение бухгалтерского учета, декларирование НДС и годовое финансовое закрытие.",
+            "title": "Accounting & Tax",
+            "description": "Reliable numbers are the foundation of better decisions",
             "items": [
-                "Ежемесячный бухгалтерский учет",
-                "Подача отчетности по НДС (VAT)",
-                "Годовая финансовая отчетность",
-                "Основы налогового планирования"
+                "Accounting and tax documentation support",
+                "Filing coordination by scope",
+                "Audit-ready data preparation",
+                "Certified professional coordination when needed"
             ]
         },
         "hr": {
@@ -105,7 +114,38 @@
                 "Выполнение задач в соответствии с четкими чек-листами и расписанием",
                 "Снижение рисков утери данных и задержек сроков"
             ]
-        }
+        },
+        "eventOrganizer": {
+            "title": "Event Organizer",
+            "description": "From concept to a memorable event experience",
+            "items": [
+                "Event concept planning",
+                "Vendor and venue coordination",
+                "Timeline and run sheet",
+                "Post-event summary"
+            ]
+        },
+        "tourOperator": {
+            "title": "Tour Operator",
+            "description": "Smooth travel from planning to return",
+            "items": [
+                "Itinerary planning",
+                "Accommodation and transport coordination",
+                "Group movement support",
+                "Document and logistics support"
+            ]
+        },
+        "addonServices": {
+            "title": "Add-on Services",
+            "description": "Small details that complete your operating system",
+            "items": [
+                "Statutory filings support",
+                "HR policy and template pack",
+                "Compliance calendar",
+                "HR system / portal"
+            ]
+        },
+        "quoteCta": "Request a Quote"
     },
     "stats": {
         "experience": {
@@ -126,27 +166,23 @@
         }
     },
     "whyValcot": {
-        "title": "Почему выбирают Valcot",
+        "title": "Why Valcot Partners",
         "reasons": [
             {
-                "title": "Местная экспертиза",
-                "description": "Глубокое понимание тайского трудового права и бизнес-культуры"
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "Сквозные услуги",
-                "description": "Абсолютное покрытие от HR, расчета зарплаты, подбора, до юриспруденции и бухгалтерии"
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "Проверенные решения",
-                "description": "Нам доверяют более 100 ведущих компаний по всему Таиланду"
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "100% Соблюдение Закона",
-                "description": "Строгое следование трудовому кодексу, налоговым правилам и закону PDPA"
-            },
-            {
-                "title": "Для бизнеса любого масштаба",
-                "description": "Масштабируемые решения как для микропредприятий, так и для крупных холдингов"
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ]
     },
@@ -218,15 +254,15 @@
         ]
     },
     "contact": {
-        "title": "Свяжитесь с Нами",
-        "subtitle": "Мы всегда готовы обсудить ваш спектр задач и предложить оптимальную модель сервиса для вашего бизнеса",
-        "cta": "Назначить Встречу",
+        "title": "Sustainable business growth starts with effective systems",
+        "subtitle": "At Valcot Partners, we believe stable growth needs strong support systems across people, payroll, legal, accounting, technology, and back-office operations. We help reduce workload, improve accuracy, and move your business forward with confidence. Start with a free 30-minute consultation and we will help identify which services fit your situation at no cost.",
+        "cta": "Book a Free 30-Minute Consultation",
         "form": {
             "name": "Ваше Имя / ФИО",
             "company": "Организация",
             "email": "Электронная почта",
             "phone": "Телефон",
-            "employees": "Количество сотрудников",
+            "employees": "Number of Employees",
             "service": "Интересующая услуга",
             "message": "Сообщение или Комментарий",
             "submit": "Отправить Сообщение",
@@ -236,18 +272,29 @@
                 "recruitment": "Рекрутинг",
                 "legal": "Юриспруденция",
                 "accounting": "Бухгалтерия и Налоги",
-                "other": "Другое"
-            }
+                "other": "Другое",
+                "eventOrganizer": "Event Organizer",
+                "tourOperator": "Tour Operator",
+                "addonServices": "Add-on Services"
+            },
+            "employeePlaceholder": "— Select number of employees —",
+            "employeeOptions": [
+                "Less than 10",
+                "10-50",
+                "51-200",
+                "201-500",
+                "More than 500"
+            ]
         },
         "info": {
             "businessHours": "Часы Работы",
-            "hours": "Пн - Пт: с 9:00 до 18:00",
-            "line": "@valcotpartners"
+            "hours": "09:00-18:00",
+            "line": "@389eefpd"
         }
     },
     "footer": {
-        "tagline": "Ценность в Партнерстве (Value in Partnership)",
-        "description": "Ваш Надежный HR-Партнер в Таиланде",
+        "tagline": "Valcot Partners — Your Trusted Partner for Business Support Solutions",
+        "description": "Integrated business support across HR, payroll, legal, accounting and tax, technology, events, and travel for stable business growth.",
         "columns": {
             "about": "О Нас",
             "services": "Услуги",
@@ -262,12 +309,13 @@
         },
         "quickLinks": "Быстрые Ссылки",
         "contact": "Связаться с нами",
-        "copyright": "© 2569 Valcot Partners Co., Ltd. Все права защищены."
+        "copyright": "© 2026 Valcot Partners Co., Ltd. All Rights Reserved.",
+        "cta": "Contact the Team"
     },
     "contactPage": {
         "responseBadge": "Отвечаем в течение 24 часов",
         "heroTitle": "Свяжитесь с нами",
-        "heroSubtitle": "У вас есть вопросы, нужен расчет стоимости или консультация по HR? Напишите нам, команда отвечает в течение 24 часов.",
+        "heroSubtitle": "Tell us about your business. The Valcot Partners team will help assess the right service scope and respond within 24 hours.",
         "formTitle": "Отправить сообщение",
         "name": "Ваше имя",
         "email": "Email",
@@ -280,41 +328,53 @@
         "submit": "Отправить сообщение",
         "officeAddress": "Адрес офиса",
         "businessHoursLabel": "Часы работы",
-        "businessHoursText": "Пн – Пт, 9:00 – 18:00",
+        "businessHoursText": "09:00-18:00",
         "services": {
             "recruitment": "Рекрутинг",
             "legal": "Юриспруденция",
             "accounting": "Бухгалтерия",
             "other": "Другое"
+        },
+        "employees": "Number of Employees",
+        "employeePlaceholder": "— Select number of employees —",
+        "employeeOptions": [
+            "Less than 10",
+            "10-50",
+            "51-200",
+            "201-500",
+            "More than 500"
+        ],
+        "serviceOptions": {
+            "hrOutsourcing": "HR Аутсорсинг",
+            "payroll": "Поддержка Заработной Платы",
+            "recruitment": "Рекрутинг",
+            "legal": "Юриспруденция",
+            "accounting": "Бухгалтерия и Налоги",
+            "other": "Другое",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         }
     },
     "whyValcotPage": {
-        "heroTitle": "Почему выбирают Valcot Partners",
-        "heroSubtitle": "Более 100 компаний доверяют нам свой HR и административные процессы. И вот почему:",
+        "heroTitle": "Why Valcot Partners",
+        "heroSubtitle": "Complete, compliant, transparent business support designed around each organization’s context.",
         "reasons": [
             {
-                "title": "Более 10 лет опыта",
-                "description": "Наша команда обладает более чем 10-летним опытом в сфере кадрового администрирования, расчета зарплаты и комплаенс, обслуживая бизнесы из самых разных отраслей."
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "Профессиональная команда",
-                "description": "Специалисты в каждом кластере: от HR-администраторов и экспертов по расчету зарплаты до консультантов по трудовому праву и налогообложению."
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "Комплексные (End-to-End) решения",
-                "description": "Всё под одной крышей — от HR-аутсорсинга, расчета заработной платы, подбора персонала до юриспруденции и налогов."
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "Проактивный сервис",
-                "description": "Мы не просто исполняем поручения. Мы выступаем вашим надежным партнером, предупреждающим проблемы до их возникновения."
-            },
-            {
-                "title": "Честное ценообразование",
-                "description": "Разумные, прозрачные цены без скрытых комиссий и сборов. Первичная консультация предоставляется абсолютно бесплатно."
-            },
-            {
-                "title": "100% Соблюдение Закона",
-                "description": "Каждая операция строго следует Трудовому кодексу, Налоговому законодательству и прочим нормативно-правовым актам."
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ],
         "valuesTitle": "Наши Ключевые Ценности",
@@ -367,7 +427,7 @@
     "aboutPage": {
         "badge": "О Нас",
         "heroTitle": "О компании Valcot Partners",
-        "heroSubtitle": "Построено на реальном опыте, движимо успехом наших клиентов — HR-партнер, которому доверяют компании в Таиланде.",
+        "heroSubtitle": "A Business Support Solutions partner connecting people, legal, finance, technology, and operations into one reliable support system.",
         "stats": [
             {
                 "label": "Лет Опыта"
@@ -382,11 +442,11 @@
                 "label": "Уровень лояльности клиентов"
             }
         ],
-        "storyTitle": "Наша История Биографии",
-        "storyP1": "Valcot Partners была основана с четкой миссией: предоставлять HR-услуги мирового класса компаниям, выходящим на тайский рынок бизнеса. Мы прекрасно понимаем, что управление персоналом за рубежом никогда не бывает простым — от соблюдения сложных местных законов до понимания культурных нюансов и незнакомых систем отклика.",
-        "storyP2": "Сегодня Valcot Partners обслуживает самый разнообразный круг клиентов — от стартапов до транснациональных корпораций. Наш всеохватывающий спектр услуг базируется на кадровом администрировании, расчетах заработной платы, подборе персонала и правовой регламентации, и предназначен для того, чтобы дать вам единую точку опоры для всех вопросов, связанных с HR.",
-        "missionTitle": "Наша Миссия",
-        "missionText": "Расширять возможности компаний и бизнеса в Таиланде, предоставляя надежные, полностью соответствующие закону и масштабируемые HR-решения; чтобы наши клиенты могли беспрепятственно сконцентрироваться на своем основном бизнесе, в то время как мы заботимся об их самом главном ресурсе: людях.",
+        "storyTitle": "A partner that understands your business",
+        "storyP1": "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+        "storyP2": "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs.",
         "coreValuesTitle": "Ключевые Ценности",
         "values": [
             {
@@ -408,7 +468,14 @@
         ],
         "ctaTitle": "Готовы ли вы сделать нас своим HR-партнером?",
         "ctaSubtitle": "Бесплатная ни к чему не обязывающая вводная консультация.",
-        "ctaButton": "Бесплатная Консультация"
+        "ctaButton": "Book a Free 30-Minute Consultation",
+        "storyParagraphs": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth."
     },
     "industriesPages": {
         "badge": "Отрасли",
@@ -467,7 +534,7 @@
     "servicesPages": {
         "global": {
             "enterpriseSolutions": "Корпоративные (Enterprise) Решения",
-            "subtitle": "Повысьте уровень управления вашей организацией с помощью наших комплексных услуг мирового класса.",
+            "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
             "optionalAddons": "Опциональные Дополнения",
             "disclaimer": "Решения Valcot предоставляются в жестких рамках заранее согласованного технического задания (scope), что гарантирует высочайшее качество и безукоризненную точность. Любые запросы вне базового охвата будут индивидуально оценены перед их реализацией.",
             "addons": [
@@ -487,14 +554,15 @@
                     "title": "Внутренний HR Портал / Система",
                     "desc": "Скоро в разработке"
                 }
-            ]
+            ],
+            "quoteCta": "Request a Quote"
         },
         "hrOutsourcing": {
             "badge": "Комплексные HR Услуги",
             "heroTitle1": "Полный Спектр",
             "heroTitle2": "HR и EOR Решений",
             "heroSubtitle": "Сфокусируйтесь на росте бизнеса, пока мы управляем вашими людьми. Услуги Номинального Работодателя (EOR) и HR аутсорсинга по международным стандартам.",
-            "getConsultation": "Получить бесплатную консультацию",
+            "getConsultation": "Request a Quote",
             "complianceStatus": "Статус Комплаенса",
             "complianceDesc": "Все сотрудники в рамках закона",
             "highlights": [
@@ -538,7 +606,7 @@
             "coverageDesc": "Выверенное профессиональное управление с возможностью аудита каждого нашего шага. Абсолютное спокойствие на всех этапах работы.",
             "ctaTitle": "Готовы упростить управление персоналом?",
             "ctaSubtitle": "Полноценная бесплатная консультация безо всяких формальных обязательств. Поведайте нам о своих кадровых проблемах, и мы спроектируем их решение.",
-            "ctaButton": "Свяжитесь с нами сегодня",
+            "ctaButton": "Request a Quote",
             "check1": "Полный охват всех возможных HR-вопросов",
             "check2": "Снижение юридических рисков бизнеса"
         },
@@ -547,7 +615,7 @@
             "heroTitle1": "Точно и всегда вовремя",
             "heroTitle2": "Зарплата без забот",
             "heroSubtitle": "Больше никаких ошибок в расчетах. Наша команда гарантирует, что каждый получит зарплату вовремя, налоги будут уплачены, а трудовое законодательство – соблюдено.",
-            "getConsultation": "Запросить Коммерческое предложение",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -575,7 +643,7 @@
             "coverageDesc": "Выполняется профессионалами узкого профиля: сокращает ошибки, экономит драгоценное время и позволяет вашей организации работать без перебоев.",
             "ctaTitle": "Позвольте нам разобраться со сложностями, чтобы вы могли управлять бизнесом.",
             "ctaSubtitle": "Надежный, сверхбезопасный и на 100% точный аутсорсинг расчета заработной платы. Начните оптимизацию Payroll-системы вместе с нами уже сегодня.",
-            "ctaButton": "Узнать Тарифы на Услуги",
+            "ctaButton": "Request a Quote",
             "check1": "Неприступная конфиденциальность данных",
             "check2": "Прозрачные Отчеты, готовые к строжайшему Аудиту"
         },
@@ -584,7 +652,7 @@
             "heroTitle1": "Связать вас с",
             "heroTitle2": "Топовыми Местными Талантами",
             "heroSubtitle": "Время в бизнесе - самый ценный ресурс. Позвольте нашим маститым хедхантерам выследить и переманить самых выдающихся кандидатов, чьи профессиональные навыки и личная энергетика органично сольются с культурой вашей корпорации.",
-            "getConsultation": "Оставить заявку на подбор",
+            "getConsultation": "Request a Quote",
             "candidateShortlist": "Главные кандидаты на должность",
             "highlights": [
                 {
@@ -644,7 +712,7 @@
             ],
             "ctaTitle": "Готовы сковать самую сокрушительную команду на рынке?",
             "ctaSubtitle": "Просто назовите критерии. И наши хедхантеры в тот же час погрузятся в премиум-сети связей. Мы берем гонорар только за безупречно размещенный результат. Никаких пустых разговоров - никаких авансов за воздух.",
-            "ctaButton": "Вызвать команду рекрутеров",
+            "ctaButton": "Request a Quote",
             "check1": "Тотальная гарантия успешного трудоустройства",
             "check2": "Мраморная, непроницаемая конфиденциальность процесса"
         },
@@ -653,7 +721,7 @@
             "heroTitle1": "Абсолютная Защита вашего Дела",
             "heroTitle2": "С Помощью Стального Правового Фундамента",
             "heroSubtitle": "От безупречного оформления Work Permit и продвижения BOI, до виртуозного соответствия тайскому PDPA — наши юридические тяжеловесы обеспечивают безупречно гладкое плавание вашего бизнеса в мутных водах Таиланда. Мы берем на себя всю удушливую бюрократию. Ваше дело — развивать капитал.",
-            "getConsultation": "Беседа с адвокатами (бесплатно)",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "Паладинская точность",
@@ -681,7 +749,7 @@
             "coverageDesc": "Мы запечатываем любые риски на самой ранней стадии. Скрупулезная верификация всех документов, чтобы каждый вздох и шаг вашей корпорации был юридически пуленепробиваемым.",
             "ctaTitle": "Жаждете вести свой бизнес в Таиланде под непробиваемой эгидой?",
             "ctaSubtitle": "Сбросьте ядовитые и сложные легальные ребусы и кипы государевых бумаг на армию наших экспертов. Свяжитесь для первого штурма вашей проблемы прямо сейчас.",
-            "ctaButton": "Привлечь правового эксперта",
+            "ctaButton": "Request a Quote",
             "check1": "Подход \"Ноль Рисков, Ноль Ошибок\"",
             "check2": "Стеклянная, полная прозрачность всего хода дела"
         },
@@ -690,7 +758,7 @@
             "heroTitle1": "Ювелирно Настроенные Журналы",
             "heroTitle2": "Маниакально Своевременные Отчеты",
             "heroSubtitle": "Педантично точная бухгалтерия и безотлагательная, до секунды выверенная уплата налогов — гранитная основа стабильного, неумолимо растущего царства коммерции. Наш легион профессиональных аудиторов возьмет эту рутину в ежовые рукавицы.",
-            "getConsultation": "Получить бесплатный аудит-диалог",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -718,9 +786,21 @@
             "coverageDesc": "Молниеносное, беспощадно идеальное исполнение всех требований налоговых органов (Revenue Department). Единственная цель — непоколебимая защита имущества и доходов Вашей компании.",
             "ctaTitle": "Вознамерились возвести свою бухгалтерию в ранг священного идеала?",
             "ctaSubtitle": "Больше никаких мигреней от вороха заплесневелых бумаг и путанных столбцов. Оставьте этот хаос своему доверенному партнеру-уничтожителю проблем. Бесплатная консультация у истоков, стопроцентно прозрачные тарифы без подстав в конце.",
-            "ctaButton": "Решить вопрос прямо сегодня",
+            "ctaButton": "Request a Quote",
             "check1": "Импульсивная, реактивная скорость ответа",
             "check2": "Кристально понятное, прозрачное ценообразование услуг"
         }
+    },
+    "aboutPreview": {
+        "heading": "A partner that understands your business",
+        "body": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs."
     }
 }

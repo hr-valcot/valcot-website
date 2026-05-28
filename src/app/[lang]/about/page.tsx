@@ -1,6 +1,6 @@
 import { Locale, getDictionary } from "@/lib/i18n";
 import {
-    Heart, Award, Users, Shield, ArrowRight, Target, Sparkles
+    Heart, Award, Users, Shield, ArrowRight, Target, Sparkles, Compass
 } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -24,6 +24,10 @@ export default async function AboutPage({
         ...v,
         icon: valueIcons[idx],
     }));
+    const storyParagraphs = dict.aboutPage.storyParagraphs ?? [
+        dict.aboutPage.storyP1,
+        dict.aboutPage.storyP2,
+    ];
 
     return (
         <>
@@ -74,18 +78,15 @@ export default async function AboutPage({
                             {dict.aboutPage.storyTitle}
                         </h2>
                         <div className="space-y-6 text-muted leading-relaxed text-lg">
-                            <p>
-                                {dict.aboutPage.storyP1}
-                            </p>
-                            <p>
-                                {dict.aboutPage.storyP2}
-                            </p>
+                            {storyParagraphs.map((paragraph: string, index: number) => (
+                                <p key={index}>{paragraph}</p>
+                            ))}
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Mission */}
+            {/* Vision & Mission */}
             <section className="py-20 bg-primary relative overflow-hidden">
                 <div
                     className="absolute inset-0 opacity-5"
@@ -95,17 +96,29 @@ export default async function AboutPage({
                     }}
                 />
                 <div className="container-lg relative">
-                    <div className="max-w-3xl mx-auto text-center">
-                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 mb-8">
-                            <Target className="w-8 h-8 text-gold" />
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <div className="rounded-xl border border-white/10 bg-white/10 backdrop-blur-sm p-8">
+                            <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-white/10 border border-white/10 mb-6">
+                                <Compass className="w-7 h-7 text-gold" />
+                            </div>
+                            <h2 className="text-2xl sm:text-3xl font-bold font-heading text-white mb-4">
+                                {dict.aboutPage.visionTitle}
+                            </h2>
+                            <p className="text-lg text-white/80 leading-relaxed">
+                                {dict.aboutPage.visionText}
+                            </p>
                         </div>
-                        <h2 className="text-3xl font-bold font-heading text-white mb-2">
-                            {dict.aboutPage.missionTitle}
-                        </h2>
-                        <div className="w-20 h-1 bg-gold mx-auto rounded-full mb-8" />
-                        <p className="text-xl text-white/80 leading-relaxed">
-                            {dict.aboutPage.missionText}
-                        </p>
+                        <div className="rounded-xl border border-white/10 bg-white/10 backdrop-blur-sm p-8">
+                            <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-white/10 border border-white/10 mb-6">
+                                <Target className="w-7 h-7 text-gold" />
+                            </div>
+                            <h2 className="text-2xl sm:text-3xl font-bold font-heading text-white mb-4">
+                                {dict.aboutPage.missionTitle}
+                            </h2>
+                            <p className="text-lg text-white/80 leading-relaxed">
+                                {dict.aboutPage.missionText}
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -15,9 +15,10 @@ interface ContactCTAProps {
             email: string;
         };
     };
+    ctaLabel?: string;
 }
 
-export function ContactCTA({ lang, dict }: ContactCTAProps) {
+export function ContactCTA({ lang, dict, ctaLabel }: ContactCTAProps) {
     return (
         <section className="section relative overflow-hidden">
             {/* Background */}
@@ -49,7 +50,7 @@ export function ContactCTA({ lang, dict }: ContactCTAProps) {
                     </h2>
 
                     {/* Subtitle */}
-                    <p className="mt-4 text-lg text-white/70 max-w-xl mx-auto">
+                    <p className="mt-4 text-lg text-white/70 max-w-3xl mx-auto leading-relaxed">
                         {dict.contact.subtitle}
                     </p>
 
@@ -59,7 +60,7 @@ export function ContactCTA({ lang, dict }: ContactCTAProps) {
                             href={`/${lang}/contact`}
                             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold text-primary font-semibold rounded-xl hover:bg-gold-light transition-all duration-200 cursor-pointer shadow-lg hover:shadow-xl hover:-translate-y-0.5"
                         >
-                            {dict.contact.cta}
+                            {ctaLabel ?? dict.contact.cta}
                             <ArrowRight className="w-5 h-5" />
                         </Link>
                     </div>

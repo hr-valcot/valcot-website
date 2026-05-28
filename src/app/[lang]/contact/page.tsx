@@ -21,8 +21,16 @@ export default async function ContactPage({
         { value: "recruitment", label: dict.contact.form.serviceOptions.recruitment },
         { value: "legal", label: dict.contact.form.serviceOptions.legal },
         { value: "accounting", label: dict.contact.form.serviceOptions.accounting },
+        { value: "event-organizer", label: dict.contact.form.serviceOptions.eventOrganizer },
+        { value: "tour-operator", label: dict.contact.form.serviceOptions.tourOperator },
+        { value: "addon-services", label: dict.contact.form.serviceOptions.addonServices },
         { value: "other", label: dict.contact.form.serviceOptions.other },
     ];
+
+    const employeeOptions = dict.contactPage.employeeOptions.map((label: string) => ({
+        value: label,
+        label,
+    }));
 
     const inputClass = "w-full px-4 py-3.5 rounded-xl border border-border bg-white focus:border-gold focus:ring-2 focus:ring-gold/20 outline-none transition-all text-sm";
     const labelClass = "block text-sm font-medium text-primary mb-2";
@@ -91,16 +99,29 @@ export default async function ContactPage({
                                         </div>
                                     </div>
 
-                                    <div>
-                                        <label className={labelClass} htmlFor="contact-service">
-                                            {dict.contactPage.service}
-                                        </label>
-                                        <select id="contact-service" className={`${inputClass} cursor-pointer`}>
-                                            <option value="">{dict.contactPage.selectPlaceholder}</option>
-                                            {serviceOptions.map((opt) => (
-                                                <option key={opt.value} value={opt.value}>{opt.label}</option>
-                                            ))}
-                                        </select>
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                        <div>
+                                            <label className={labelClass} htmlFor="contact-employees">
+                                                {dict.contactPage.employees}
+                                            </label>
+                                            <select id="contact-employees" className={`${inputClass} cursor-pointer`}>
+                                                <option value="">{dict.contactPage.employeePlaceholder}</option>
+                                                {employeeOptions.map((opt) => (
+                                                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                                                ))}
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label className={labelClass} htmlFor="contact-service">
+                                                {dict.contactPage.service}
+                                            </label>
+                                            <select id="contact-service" className={`${inputClass} cursor-pointer`}>
+                                                <option value="">{dict.contactPage.selectPlaceholder}</option>
+                                                {serviceOptions.map((opt) => (
+                                                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                                                ))}
+                                            </select>
+                                        </div>
                                     </div>
 
                                     <div>
@@ -158,7 +179,7 @@ export default async function ContactPage({
                                 </a>
 
                                 <a
-                                    href="https://line.me/R/ti/p/@valcotpartners"
+                                    href={dict.topBar.lineUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-start gap-4 p-5 rounded-2xl border border-border hover:border-gold/30 hover:shadow-lg transition-all duration-300 group"
@@ -168,7 +189,7 @@ export default async function ContactPage({
                                     </div>
                                     <div>
                                         <p className="text-xs text-muted uppercase tracking-wider">Line Official</p>
-                                        <p className="text-primary font-semibold mt-1">@valcotpartners</p>
+                                        <p className="text-primary font-semibold mt-1">{dict.topBar.line}</p>
                                     </div>
                                 </a>
 
@@ -178,7 +199,7 @@ export default async function ContactPage({
                                     </div>
                                     <div>
                                         <p className="text-xs text-muted uppercase tracking-wider">{dict.contactPage.officeAddress}</p>
-                                        <p className="text-primary font-semibold mt-1">Bangkok, Thailand</p>
+                                        <p className="text-primary font-semibold mt-1 leading-relaxed">{dict.topBar.address}</p>
                                     </div>
                                 </div>
 

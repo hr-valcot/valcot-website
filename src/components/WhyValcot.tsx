@@ -1,5 +1,5 @@
 import { Locale } from "@/lib/i18n";
-import { MapPin, Workflow, Award, ShieldCheck, Users } from "lucide-react";
+import { Award, ShieldCheck, Users, Workflow } from "lucide-react";
 
 interface WhyValcotProps {
     lang: Locale;
@@ -14,7 +14,7 @@ interface WhyValcotProps {
     };
 }
 
-const icons = [MapPin, Workflow, Award, ShieldCheck, Users];
+const icons = [Workflow, ShieldCheck, Award, Users];
 
 export function WhyValcot({ lang, dict }: WhyValcotProps) {
     return (
@@ -31,35 +31,13 @@ export function WhyValcot({ lang, dict }: WhyValcotProps) {
                     <div className="mt-4 w-20 h-1 bg-gold mx-auto rounded-full" />
                 </div>
 
-                {/* Reasons Grid - 5 items: 3+2 */}
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
-                    {dict.whyValcot.reasons.slice(0, 3).map((reason, index) => {
+                {/* Reasons Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {dict.whyValcot.reasons.map((reason, index) => {
                         const IconComponent = icons[index];
                         return (
                             <div
                                 key={index}
-                                className="group text-center p-6 rounded-2xl hover:bg-white hover:shadow-lg transition-all duration-300 cursor-pointer"
-                            >
-                                <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gold/10 text-gold group-hover:bg-gold group-hover:text-white transition-colors duration-300 mb-6">
-                                    <IconComponent className="w-8 h-8" />
-                                </div>
-                                <h3 className="text-xl font-semibold font-heading text-primary mb-3">
-                                    {reason.title}
-                                </h3>
-                                <p className="text-muted leading-relaxed text-sm">
-                                    {reason.description}
-                                </p>
-                                <div className="mt-6 w-0 h-0.5 bg-gold mx-auto group-hover:w-12 transition-all duration-300 rounded-full" />
-                            </div>
-                        );
-                    })}
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
-                    {dict.whyValcot.reasons.slice(3).map((reason, index) => {
-                        const IconComponent = icons[index + 3];
-                        return (
-                            <div
-                                key={index + 3}
                                 className="group text-center p-6 rounded-2xl hover:bg-white hover:shadow-lg transition-all duration-300 cursor-pointer"
                             >
                                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gold/10 text-gold group-hover:bg-gold group-hover:text-white transition-colors duration-300 mb-6">

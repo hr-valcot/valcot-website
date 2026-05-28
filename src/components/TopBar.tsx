@@ -11,18 +11,21 @@ interface TopBarProps {
         topBar: {
             phone: string;
             email: string;
+            lineUrl: string;
         };
     };
 }
 
 export function TopBar({ lang, dict }: TopBarProps) {
+    const phoneHref = dict.topBar.phone.replace(/[^\d+]/g, "");
+
     return (
         <div className="relative z-[60] bg-primary text-white text-sm hidden md:block">
             <div className="container-lg flex items-center justify-between py-2">
                 {/* Left - Contact Info */}
                 <div className="flex items-center gap-6">
                     <a
-                        href={`tel:${dict.topBar.phone.replace(/\s/g, "")}`}
+                        href={`tel:${phoneHref}`}
                         className="flex items-center gap-2 text-white/80 hover:text-gold transition-colors"
                     >
                         <Phone className="w-3.5 h-3.5" />
@@ -74,7 +77,7 @@ export function TopBar({ lang, dict }: TopBarProps) {
 
                         {/* Line */}
                         <a
-                            href="https://line.me"
+                            href={dict.topBar.lineUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white/70 hover:text-gold transition-colors"

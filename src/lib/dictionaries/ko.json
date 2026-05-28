@@ -12,81 +12,90 @@
             "payroll": "급여 관리",
             "recruitment": "채용 서비스",
             "legal": "법무 및 컴플라이언스",
-            "accounting": "회계 및 세무"
+            "accounting": "회계 및 세무",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         },
         "industryItems": {
             "sme": "중소기업 및 스타트업",
             "representative": "대표 사무소",
             "multinational": "다국적 기업"
-        }
+        },
+        "cta": "Free Consultation"
     },
     "topBar": {
-        "phone": "+66 (0) XX-XXX-XXXX",
-        "email": "info@valcotpartners.com"
+        "phone": "0975955664",
+        "email": "info@valcotpartners.com",
+        "line": "@389eefpd",
+        "lineUrl": "https://line.me/R/ti/p/@389eefpd",
+        "address": "1 Empire Tower, Unit 2701-02, 2712-14 (TT 23), 27th Floor, South Sathorn Road, Yan Nawa, Sathon, Bangkok 10120, Thailand",
+        "taxId": "0105568205565",
+        "businessHours": "09:00-18:00"
     },
     "floatingCta": {
-        "text": "무료 상담"
+        "text": "Free Consultation"
     },
     "hero": {
-        "title": "신뢰할 수 있는 HR 파트너",
-        "subtitle": "in Thailand",
-        "description": "Valcot Partners는 종합적인 HR 아웃소싱, 급여 관리, 채용, 법무 및 회계 서비스를 제공하여 귀사가 비즈니스 성장에만 집중할 수 있도록 지원합니다.",
-        "cta_primary": "상담 및 견적 요청",
-        "cta_secondary": "모든 서비스 보기"
+        "title": "A full-service partner for organizations built to grow with confidence",
+        "subtitle": "",
+        "description": "Valcot Partners brings HR, legal, accounting, tax, technology, events, and travel expertise together in one place, so your team can focus on business growth.",
+        "cta_primary": "Free Consultation",
+        "cta_secondary": "View All Services"
     },
     "services": {
-        "title": "우리의 서비스",
-        "subtitle": "HR 및 백오피스 운영을 위한 완벽한 솔루션",
-        "viewAll": "전체 서비스 보기",
-        "learnMore": "더 알아보기",
+        "title": "8 services designed to move your business forward",
+        "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
+        "viewAll": "View All Services",
+        "learnMore": "Learn More",
         "hrOutsourcing": {
-            "title": "HR 아웃소싱",
-            "description": "고용 계약, 복리후생 관리 및 EOR(명목상 고용주) 서비스를 포함한 전면적인 HR 아웃소싱입니다.",
+            "title": "HR Outsourcing & EOR",
+            "description": "Manage people compliantly without building your own HR team",
             "items": [
-                "고용 계약 관리",
-                "직원 복리후생 운영",
-                "EOR(Employer of Record) 서비스",
-                "온보딩 및 퇴사 절차 지원"
+                "Employer of Record (EOR)",
+                "Employment documentation",
+                "Onboarding and offboarding",
+                "Benefits and compliance coordination"
             ]
         },
         "payroll": {
-            "title": "급여 관리",
-            "description": "단일화된 급여 처리부터 정시 세금 신고 및 4대 보험 제출 등 완전한 프로세스를 제공합니다.",
+            "title": "Payroll Outsourcing",
+            "description": "Accurate payroll, on time, every cycle",
             "items": [
-                "월별 급여 계산 처리",
-                "PND 1, 1K, 91 (개인 소득세) 신고",
-                "사회 보장(사회 보험) 제출 대행",
-                "급여 요약 리포트 제공"
+                "Monthly payroll processing",
+                "OT / allowance / deduction summaries",
+                "Tax and SSO support by scope",
+                "Payroll summary reports"
             ]
         },
         "recruitment": {
-            "title": "채용 서비스",
-            "description": "정규직, 임원급 스카우트, 계약직 및 대규모 채용을 포함한 프리미엄 인재 영입 솔루션입니다.",
+            "title": "Recruitment & Staffing",
+            "description": "The right people, at the right time, in the right model for your organization",
             "items": [
-                "정규직 인재 채용",
-                "임원 및 핵심 인재 서치",
-                "계약직 인력 파견",
-                "대규모 대량 채용"
+                "Requirement intake",
+                "Screening and shortlist",
+                "Interview coordination",
+                "Onboarding support by scope"
             ]
         },
         "legal": {
-            "title": "법무 및 컴플라이언스",
-            "description": "취업 규칙(워크퍼밋), 비자, BOI 신청서 및 PDPA 규정을 포괄하는 전문 법률 서비스입니다.",
+            "title": "Legal & Compliance",
+            "description": "A stable legal foundation for worry-free growth",
             "items": [
-                "워크퍼밋(Work Permit) 및 비자",
-                "BOI(태국 투자청) 신청 지원",
-                "PDPA(개인정보보호법) 규제 준수",
-                "노동법 자문 및 컨설팅"
+                "Work Permit & Visa",
+                "BOI and government documentation",
+                "PDPA and labor law",
+                "Contract drafting and review"
             ]
         },
         "accounting": {
-            "title": "회계 및 세무",
-            "description": "월별 기장, 부가가치세(VAT) 신고 및 연말 결산 재무 서비스를 제공합니다.",
+            "title": "Accounting & Tax",
+            "description": "Reliable numbers are the foundation of better decisions",
             "items": [
-                "월별 장부 기장 매니지먼트",
-                "월별 부가가치세(VAT) 신고",
-                "연말 무결성 재무 결산",
-                "기초적인 세무 계획 및 절세 방안"
+                "Accounting and tax documentation support",
+                "Filing coordination by scope",
+                "Audit-ready data preparation",
+                "Certified professional coordination when needed"
             ]
         },
         "hr": {
@@ -105,7 +114,38 @@
                 "체크리스트 기반 및 타임라인 기반 실행력",
                 "누락된 데이터 및 마감일 지연에 대한 리스크 극감"
             ]
-        }
+        },
+        "eventOrganizer": {
+            "title": "Event Organizer",
+            "description": "From concept to a memorable event experience",
+            "items": [
+                "Event concept planning",
+                "Vendor and venue coordination",
+                "Timeline and run sheet",
+                "Post-event summary"
+            ]
+        },
+        "tourOperator": {
+            "title": "Tour Operator",
+            "description": "Smooth travel from planning to return",
+            "items": [
+                "Itinerary planning",
+                "Accommodation and transport coordination",
+                "Group movement support",
+                "Document and logistics support"
+            ]
+        },
+        "addonServices": {
+            "title": "Add-on Services",
+            "description": "Small details that complete your operating system",
+            "items": [
+                "Statutory filings support",
+                "HR policy and template pack",
+                "Compliance calendar",
+                "HR system / portal"
+            ]
+        },
+        "quoteCta": "Request a Quote"
     },
     "stats": {
         "experience": {
@@ -126,27 +166,23 @@
         }
     },
     "whyValcot": {
-        "title": "Valcot을 선택하는 이유",
+        "title": "Why Valcot Partners",
         "reasons": [
             {
-                "title": "현지 전문 지식",
-                "description": "태국 노동법, 규정 및 비즈니스 문화에 대한 깊은 이해"
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "엔드 투 엔드(End-to-End) 서비스",
-                "description": "인사, 급여, 채용, 법무에서 회계까지 포괄적 문제 해결 역량"
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "입증된 성과 및 실적",
-                "description": "전 지역 100여 개 이상의 주요 다국적 기업으로부터 검증됨"
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "100% 규제 준수",
-                "description": "노동법 및 세법, PDPA 기준 등 현지 법령의 엄격한 모니터링"
-            },
-            {
-                "title": "모든 규모에 맞는 솔루션",
-                "description": "중소기업부터 대기업까지 환경에 맞춘 확장 가능한 서비스 구축"
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ]
     },
@@ -218,15 +254,15 @@
         ]
     },
     "contact": {
-        "title": "문의하기",
-        "subtitle": "귀사의 상황을 파악하고 안정적 서비스 모델을 도입할 준비가 되어 있습니다.",
-        "cta": "상담 및 예약",
+        "title": "Sustainable business growth starts with effective systems",
+        "subtitle": "At Valcot Partners, we believe stable growth needs strong support systems across people, payroll, legal, accounting, technology, and back-office operations. We help reduce workload, improve accuracy, and move your business forward with confidence. Start with a free 30-minute consultation and we will help identify which services fit your situation at no cost.",
+        "cta": "Book a Free 30-Minute Consultation",
         "form": {
             "name": "성함",
             "company": "회사/조직명",
             "email": "이메일",
             "phone": "연락처(전화번호)",
-            "employees": "직원 수 현황",
+            "employees": "Number of Employees",
             "service": "관심 서비스 분야",
             "message": "상세 문의 내용",
             "submit": "메시지 전송",
@@ -236,18 +272,29 @@
                 "recruitment": "채용 서비스",
                 "legal": "법무 및 컴플라이언스",
                 "accounting": "회계 및 세무 연계",
-                "other": "기타 (Other)"
-            }
+                "other": "기타 (Other)",
+                "eventOrganizer": "Event Organizer",
+                "tourOperator": "Tour Operator",
+                "addonServices": "Add-on Services"
+            },
+            "employeePlaceholder": "— Select number of employees —",
+            "employeeOptions": [
+                "Less than 10",
+                "10-50",
+                "51-200",
+                "201-500",
+                "More than 500"
+            ]
         },
         "info": {
             "businessHours": "운영 시간",
-            "hours": "월 - 금: 오전 9:00 - 오후 6:00",
-            "line": "@valcotpartners"
+            "hours": "09:00-18:00",
+            "line": "@389eefpd"
         }
     },
     "footer": {
-        "tagline": "Value in Partnership",
-        "description": "귀하의 가장 든든한 태국 현지 HR 파트너, Valcot 입니다.",
+        "tagline": "Valcot Partners — Your Trusted Partner for Business Support Solutions",
+        "description": "Integrated business support across HR, payroll, legal, accounting and tax, technology, events, and travel for stable business growth.",
         "columns": {
             "about": "회사 정보",
             "services": "주요 서비스",
@@ -262,12 +309,13 @@
         },
         "quickLinks": "빠른 이동",
         "contact": "고객 지원 채널",
-        "copyright": "© 2569 Valcot Partners Co., Ltd. 모든 권리 보유."
+        "copyright": "© 2026 Valcot Partners Co., Ltd. All Rights Reserved.",
+        "cta": "Contact the Team"
     },
     "contactPage": {
         "responseBadge": "24시간 이내 응답 보장",
         "heroTitle": "문의하기",
-        "heroSubtitle": "궁금한 점이 있으시거나 견적이 필요하신가요? 언제든 연락주세요. 저희 팀이 24시간 내로 답변해 드립니다.",
+        "heroSubtitle": "Tell us about your business. The Valcot Partners team will help assess the right service scope and respond within 24 hours.",
         "formTitle": "메시지 보내기",
         "name": "성함",
         "email": "이메일",
@@ -280,41 +328,53 @@
         "submit": "메시지 전송",
         "officeAddress": "사무실 주소",
         "businessHoursLabel": "영업 시간",
-        "businessHoursText": "월요일 – 금요일, 9:00 – 18:00",
+        "businessHoursText": "09:00-18:00",
         "services": {
             "recruitment": "채용 서비스",
             "legal": "법무",
             "accounting": "회계",
             "other": "기타"
+        },
+        "employees": "Number of Employees",
+        "employeePlaceholder": "— Select number of employees —",
+        "employeeOptions": [
+            "Less than 10",
+            "10-50",
+            "51-200",
+            "201-500",
+            "More than 500"
+        ],
+        "serviceOptions": {
+            "hrOutsourcing": "HR 아웃소싱",
+            "payroll": "급여 관리 지원",
+            "recruitment": "채용 서비스",
+            "legal": "법무 및 컴플라이언스",
+            "accounting": "회계 및 세무 연계",
+            "other": "기타 (Other)",
+            "eventOrganizer": "Event Organizer",
+            "tourOperator": "Tour Operator",
+            "addonServices": "Add-on Services"
         }
     },
     "whyValcotPage": {
-        "heroTitle": "Valcot Partners를 선택하는 이유",
-        "heroSubtitle": "100개 이상의 기업들이 HR 및 백오피스 운영을 당사에 믿고 맡기는 이유",
+        "heroTitle": "Why Valcot Partners",
+        "heroSubtitle": "Complete, compliant, transparent business support designed around each organization’s context.",
         "reasons": [
             {
-                "title": "10년 이상의 전문성",
-                "description": "저희 팀은 HR, 급여 관리 및 컴플라이언스 분야에서 10년 이상의 경험을 보유하고 있으며, 다양한 산업군에 맞춤화된 서비스를 제공해 왔습니다."
+                "title": "Everything in one place",
+                "description": "HR, legal, accounting, tax, events, and travel support in one coordinated team, reducing vendor handoffs."
             },
             {
-                "title": "전문가 팀",
-                "description": "인사 관리(HR Admin), 급여 전문가, 노동법 및 회계 컨설턴트 등 전 영역의 특화된 전문가들로 구성되어 있습니다."
+                "title": "Compliant with Thai law",
+                "description": "A team that understands Thai labor law, tax, PDPA, and compliance requirements to reduce legal risk from the start."
             },
             {
-                "title": "엔드투엔드(End-to-End) 솔루션",
-                "description": "HR 아웃소싱, 급여, 채용, 노동법 자문부터 회계 및 세무까지 하나의 파트너사를 통해 모두 해결할 수 있습니다."
+                "title": "Transparent and auditable",
+                "description": "Clear documents and reports at every step so your organization can audit transactions and decisions."
             },
             {
-                "title": "주도적인 선제적 서비스",
-                "description": "단순히 지시를 따르는 것을 넘어, 문제가 발생하기 전에 먼저 예방하고 조언하는 파트너로 기능합니다."
-            },
-            {
-                "title": "투명하고 공정한 가격",
-                "description": "숨겨진 비용 없이 합리적이고 투명한 요금 체계를 갖추고 있습니다. 첫 번째 초기 상담은 무료입니다."
-            },
-            {
-                "title": "100% 컴플라이언스",
-                "description": "모든 운영 체계는 현행 노동법, 세법 및 관련 법적 의무 사항을 완벽하게 준수합니다."
+                "title": "Tailored to your business",
+                "description": "Services designed around your organization size, industry, and growth goals."
             }
         ],
         "valuesTitle": "핵심 가치",
@@ -367,7 +427,7 @@
     "aboutPage": {
         "badge": "회사 소개",
         "heroTitle": "Valcot Partners에 대하여",
-        "heroSubtitle": "실전 경험을 바탕으로 구축되었으며 고객의 비즈니스 성공이 원동력입니다 — 태국 현지 기업들이 가장 신뢰하는 HR 파트너.",
+        "heroSubtitle": "A Business Support Solutions partner connecting people, legal, finance, technology, and operations into one reliable support system.",
         "stats": [
             {
                 "label": "년 이상의 경력 축적"
@@ -382,11 +442,11 @@
                 "label": "의 높은 누적 만족도 기록"
             }
         ],
-        "storyTitle": "우리의 발자취",
-        "storyP1": "Valcot Partners는 명확한 미션 하에 설립되었습니다: 바로 태국 시장에 진출하거나 운영 중인 회사에 세계적인 수준의 HR 서비스를 제공하는 것입니다. 저희는 낯선 현지 법령부터 문화적 차이, 그리고 복잡한 행정 시스템에 이르기까지, 타국에서 인력을 관리하는 것이 결코 쉽지 않음을 누구보다 잘 이해하고 있습니다.",
-        "storyP2": "오늘날 Valcot Partners는 초기 스타트업부터 대형 다국적 기업에 이르기까지 매우 다양한 고객층을 지원하고 있습니다. 저희의 제공 범위는 HR 업무 일반, 급여 처리 관리, 직원 채용, 법무 자문을 폭넓게 포괄하며, 단 하나의 통합된 채널로 귀사의 모든 HR 니즈를 해결할 수 있도록 전문적으로 설계되었습니다.",
-        "missionTitle": "미션 및 비전",
-        "missionText": "신뢰할 수 있고 컴플라이언스를 완벽히 준수하며 비즈니스 확장에 맞춰 유연하게 적용되는 HR 서비스를 제공하여 태국 내 기업들의 역량을 강화합니다. 고객이 비즈니스 핵심 성장 과제에만 집중하는 동안, 저희는 고객의 가장 소중한 자산인 '사람(인적 자원)'을 체계적이고 안정적으로 관리합니다.",
+        "storyTitle": "A partner that understands your business",
+        "storyP1": "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+        "storyP2": "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs.",
         "coreValuesTitle": "핵심 가치",
         "values": [
             {
@@ -408,7 +468,14 @@
         ],
         "ctaTitle": "귀사의 전문 HR 파트너가 될 준비가 되었습니다.",
         "ctaSubtitle": "비용 부담 없이 귀사의 상황을 설명하고 무료 상담을 신청하세요.",
-        "ctaButton": "지금 무료로 상담하기"
+        "ctaButton": "Book a Free 30-Minute Consultation",
+        "storyParagraphs": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth."
     },
     "industriesPages": {
         "badge": "적용 산업",
@@ -467,7 +534,7 @@
     "servicesPages": {
         "global": {
             "enterpriseSolutions": "엔터프라이즈 솔루션",
-            "subtitle": "모든 차원을 포괄하는 세계적 수준의 서비스로 귀하의 조직 관리를 한 단계 격상시킵니다.",
+            "subtitle": "Integrated business support across people, compliance, finance, operations, events, and travel.",
             "optionalAddons": "추가 옵션 (Add-ons)",
             "disclaimer": "Valcot의 모든 서비스는 품질과 정확성을 철저히 보장하기 위해 상호 합의된 업무 범위(Scope) 내에서 제공됩니다. 그 범위를 벗어나거나 추가로 복잡한 요구 사항이 수반되는 업무는 실행 전 반드시 별도 평가와 제안 프로세스를 거칩니다.",
             "addons": [
@@ -487,14 +554,15 @@
                     "title": "HR 전용 시스템/포털",
                     "desc": "출시 예정"
                 }
-            ]
+            ],
+            "quoteCta": "Request a Quote"
         },
         "hrOutsourcing": {
             "badge": "통합 HR 아웃소싱 제공",
             "heroTitle1": "입사부터 퇴사까지",
             "heroTitle2": "모든 차원을 아우르는 HR & EOR 솔루션",
             "heroSubtitle": "회사의 성장에만 온전히 집중하십시오. 귀사의 소중한 임직원 관리는 당사가 맡겠습니다. আন্তর্জাতিক стандарта에 맞춘 명의상 고용주(EOR) 및 HR 솔루션입니다.",
-            "getConsultation": "무료 컨설팅 받기",
+            "getConsultation": "Request a Quote",
             "complianceStatus": "컴플라이언스 현황 파악",
             "complianceDesc": "모든 직원의 거주 및 노동법 요건 충족",
             "highlights": [
@@ -538,7 +606,7 @@
             "coverageDesc": "모든 단계에서 철저히 투명하게 상시 검증할 수 있는 리포팅과 전문적이고 책임감 있는 관리를 통해 완벽한 평온함을 제공합니다.",
             "ctaTitle": "인력 관리를 간단하게 만들 준비가 되셨습니까?",
             "ctaSubtitle": "의무나 조건 없는 무료 컨설팅입니다. 현재 겪고 계신 HR상의 모든 어려움을 말씀해 주시면, 저희가 최적의 해결책을 직접 설계해 드리겠습니다.",
-            "ctaButton": "지금 바로 문의하기",
+            "ctaButton": "Request a Quote",
             "check1": "모든 HR 이슈 포괄 케어",
             "check2": "치명적인 법률 리스크 감소"
         },
@@ -547,7 +615,7 @@
             "heroTitle1": "신속 정확하게",
             "heroTitle2": "스트레스 제로 급여 관리",
             "heroSubtitle": "단 1바트의 계산 오류도 없습니다. 우리 전문가 팀은 모든 구성원이 급여를 정확히 지급받고, 세금이 깔끔하게 신고되며, 모든 노동법이 엄격히 지켜지도록 보장합니다.",
-            "getConsultation": "무료 견적 요청하기",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -575,7 +643,7 @@
             "coverageDesc": "오로지 검증된 전문가에 의해 운영되므로, 불필요한 오류가 차단되고 소중한 시간이 절약되어 기업이 마찰 없이 순항할 수 있게 합니다.",
             "ctaTitle": "복잡하고 머리 아픈 일은 우리에게, 귀하는 비즈니스에만 전념하십시오.",
             "ctaSubtitle": "안정적이고 강력한 보안성을 갖춘 100% 무결점 급여 아웃소싱 서비스. 오늘부터 저희와 함께 급여 패러다임을 혁신해 보십시오.",
-            "ctaButton": "서비스 이용 요금 확인하기",
+            "ctaButton": "Request a Quote",
             "check1": "엄격한 기밀성 절대 보장 체계",
             "check2": "언제든 외부 감사를 받을 수 있는 명확한 리포트"
         },
@@ -584,7 +652,7 @@
             "heroTitle1": "적합한 인재와의 완벽한 연결",
             "heroTitle2": "탑티어 핵심 인재 소싱",
             "heroSubtitle": "시간은 귀중합니다. 당사의 숙련된 전문가들이 귀사의 기업 철학 및 문화에 가장 완벽하게 어우러지는 최고의 후보자를 직접 발굴하여 연결해 드립니다.",
-            "getConsultation": "채용 요청서 제출",
+            "getConsultation": "Request a Quote",
             "candidateShortlist": "검증이 완료된 최종 후보군",
             "highlights": [
                 {
@@ -644,7 +712,7 @@
             ],
             "ctaTitle": "귀하의 비즈니스를 견인할 가장 강력한 팀을 구성할 준비가 되셨습니까?",
             "ctaSubtitle": "현재 어떤 사람이 필요하신지, 어떤 역량이 요구되는지만 말씀하십시오. 귀사가 원하는 인재를 뽑을 때까지 저희 헤드헌터들의 집요한 탐색은 멈추지 않습니다. 착수금이나 불필요한 성사 전 수수료는 단 1원도 없습니다.",
-            "ctaButton": "채용 전문가와 연결",
+            "ctaButton": "Request a Quote",
             "check1": "강력하고 확실한 채용 보증",
             "check2": "완벽한 프라이버시 유지 및 철저한 비밀 진행 보장"
         },
@@ -653,7 +721,7 @@
             "heroTitle1": "단단한 법적 토대 위에서",
             "heroTitle2": "비즈니스를 가장 안전하게 방어",
             "heroSubtitle": "외국인 취업 준비 과정인 Work Permit부터 신뢰성이 생명인 BOI 혜택, 더불어 가장 처벌이 무거운 PDPA 준수까지. 당사 소속의 법률 파트너들이 복잡하게 뒤엉킨 태국 내 규정을 한 치의 오차도 없이 헤쳐나갑니다. 지루한 관공서 문턱은 저희가 넘겠습니다; 귀하는 오로지 비즈니스에 집중하십시오.",
-            "getConsultation": "법무팀과 무료 상담",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "절대적 정밀함",
@@ -681,7 +749,7 @@
             "coverageDesc": "사업의 모든 순간이 위협받지 않고 단 한 장의 서류도 누락되지 않도록 철두철미한 관리가 동반됩니다. 안전함을 기반으로 거침없이 전진하십시오.",
             "ctaTitle": "태국에서 합법적이고 굳건하게 비즈니스를 전개하실 확고한 뜻이 서셨습니까?",
             "ctaSubtitle": "머리를 어지럽히는 세세금금한 절차들과 산더미 같은 법정 서류더미를 우리 전문가들에게 전부 내맡기십시오. 지금 바로 부담 없이 문의주세요.",
-            "ctaButton": "법률 전문가 연결하기",
+            "ctaButton": "Request a Quote",
             "check1": "비즈니스 지체 및 법정 다툼 제로화 전략",
             "check2": "모든 과정을 눈으로 확인 가능한 투명성"
         },
@@ -690,7 +758,7 @@
             "heroTitle1": "흐트러짐 없는 체계적인 장부",
             "heroTitle2": "단 1초의 지각도 없는 세무 신고서",
             "heroSubtitle": "어떤 변수에도 흔들리지 않는 정확한 재무 기록과 늦출 수 없는 세무 신고는 영속 가능한 단단한 기업을 세우는 기초 공사입니다. 당사에 소속된 숙련된 회계 전문가 그룹이 하나부터 열까지 완벽에 가까운 심리스(Seamless) 프로세스로 회사를 견인합니다.",
-            "getConsultation": "회계/세무 진단 받아보기",
+            "getConsultation": "Request a Quote",
             "highlights": [
                 {
                     "value": "100%",
@@ -718,9 +786,21 @@
             "coverageDesc": "어떤 상황에서도 태국 국세청의 각종 규제와 정책을 온건하고 합법적으로 활용하며, 귀사에 단 하나의 손해도 가지 않도록 보호합니다. 신속하고 정밀한 실행은 저희의 기본 원칙입니다.",
             "ctaTitle": "산산조각 흩어져 있는 회사 회계 시스템, 이제 한 차원 높은 곳으로 완전히 끌어올릴 준비가 되셨습니까?",
             "ctaSubtitle": "가독성 떨어지는 문서 덩어리들과 복잡한 계산식 때문에 더 이상 두통을 호소하지 마십시오. 가장 믿을 수 있는 파트너가 해결하겠습니다. 최초 컨설팅 비용 전면 무료. 나중에 결코 숨은 비용이 청구되지 않는 확실한 초기 견적 시스템입니다.",
-            "ctaButton": "지금 당장 상담하기",
+            "ctaButton": "Request a Quote",
             "check1": "비즈니스의 스피드를 살려주는 빠른 응답 시간 보유",
             "check2": "더 이상 고민할 필요가 없는 투명하고 명쾌한 수수료 구조"
         }
+    },
+    "aboutPreview": {
+        "heading": "A partner that understands your business",
+        "body": [
+            "Valcot Partners is more than a back-office provider. We act as a strategic partner helping organizations build reliable business support systems from the ground up. We understand that growth depends on how people, legal, accounting, tax, technology, and operations work together.",
+            "Our team supports HR, payroll, recruitment, legal and compliance, accounting and tax, event operations, and travel coordination, giving your organization one clear point of coordination while reducing manual work and improving audit readiness.",
+            "Every service is shaped around the client’s actual context, including company size, team structure, industry, site complexity, and growth goals."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To be a trusted Business Support Solutions partner that connects expertise in people, legal, finance, technology, and operations so businesses can operate with stability, agility, and long-term readiness for growth.",
+        "missionTitle": "Mission",
+        "missionText": "To reduce back-office complexity, improve management efficiency, raise operating standards, and deliver legally compliant, transparent, and auditable services through experts who understand each client’s context and design solutions around real needs."
     }
 }
